@@ -38,6 +38,11 @@
 			&__subcap
 				opacity: 0
 
+	&.b-composition
+		&__logo,
+		&__slogan
+			opacity: 0
+
 .b-header
 	&.js-isonscreen
 		.b-header
@@ -73,3 +78,12 @@
 			&__subcap
 				@extend %bounceIn
 				animation-delay: .03s
+
+.b-composition
+	&__logo
+		&.js-isonscreen
+			@extend %bounceIn
+	&__slogan
+		&.js-isonscreen
+			@extend %bounceIn
+			animation-delay: .03s

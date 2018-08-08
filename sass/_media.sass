@@ -96,6 +96,7 @@
 				&::before
 					width: 34px
 					height: 29px
+					background-size: contain
 		&__btn
 			position: absolute
 			top: 390px
@@ -233,7 +234,7 @@
 		&__logo
 			font-size: 35px
 			+text-stroke(6, #2f2e2e)
-			left: -110px
+			left: -80px
 			span
 				&:nth-child(2)
 					padding-left: 75px
@@ -254,7 +255,79 @@
 				margin-left: -265px
 				background-size: cover
 		&__nut
+			&--1
+				bottom: -70px
+				left: 0
+				top: auto
 			&--2
 				display: none
 		&__leaf
 			display: none
+
+	.b-composition
+		margin-top:  30px
+		&__wrap,
+		&__left,
+		&__right
+			display: block
+			direction: unset
+		&__left
+			width: 100%
+			height: auto
+		&__title
+			margin: 0 0 -35px
+			padding-left: 0
+			font-size: 35px
+		&__logo
+			font-size: 42px
+			text-align: center
+			+text-stroke(6, #2f2e2e)
+			position: relative
+			z-index: 1
+			margin: 0
+		&__slogan
+			font-size: 30px
+			padding: 15px 30px 25px
+			margin: 0 -30px
+			text-align: center
+		&__list
+			padding: 60px 7px 115px 35px
+			text-align: left
+			margin-right: 0
+			background-image: url(../img/composition-dotted-line-mobile.png)
+		&__item
+			&+&
+				margin-top: 30px
+		&__name
+			font-size: 18px
+		&__text
+			font-size: 16px
+		&__product
+			width: 290px
+			height: 330px
+			position: relative
+			top: auto
+			z-index: 1
+			right: auto
+			margin-top: -110px
+			margin-bottom: -15px
+			img
+				width: 115px
+				bottom: -45px
+		&__flowers
+			&--1
+				width: 100px
+				height: 113px
+				bottom: 0
+				left: 50px
+			&--2
+				width: 65px
+				height: 75px
+				top: 90px
+				right: 0
+		&__cream
+			width: 130px
+			height: 63px
+			bottom: 0
+			left: 90px
+

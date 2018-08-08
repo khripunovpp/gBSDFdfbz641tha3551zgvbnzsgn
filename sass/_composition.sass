@@ -1,0 +1,101 @@
+.b-composition
+	margin-top: -50px
+	&__wrap
+		@extend %grid
+		direction: rtl
+	&__left,
+	&__right
+		@extend %part
+		vertical-align: top
+		direction: ltr
+		position: relative
+	&__left
+		width: 55%
+		height: 691px
+	&__right
+	&__title
+		color: #a7ce0b
+		font-size: 48px
+		line-height: 1
+		padding-left: 45%
+		text-align: right
+		margin: 0 0 -40px
+	&__product
+		background-image: url(../img/composition-mix.png)
+		background-repeat: no-repeat
+		background-position: 50% 50%
+		background-size: cover
+		width: 607px
+		height: 691px
+		position: absolute
+		z-index: -1
+		top: 0
+		right: -60px
+		img
+			position: absolute
+			right: 0
+			bottom: -180px
+	&__flowers
+		position: absolute
+		background-repeat: no-repeat
+		background-position: 50% 50%
+		background-size: cover
+		&--1
+			background-image: url(../img/composition-flowers-1.png)
+			width: 236px
+			height: 266px
+			bottom: 20px
+			left: 90px
+			z-index: 1
+		&--2
+			background-image: url(../img/composition-flowers-2.png)
+			width: 126px
+			height: 145px
+			top: 150px
+			right: 30px
+	&__cream
+		position: absolute
+		background-repeat: no-repeat
+		background-position: 50% 50%
+		background-size: cover
+		background-image: url(../img/composition-cream.png)
+		width: 293px
+		height: 143px
+		bottom: -30px
+		left: 120px
+	&__logo
+		font-size: 96px
+		margin: -115px 0 -30px
+		text-align: right
+	&__slogan
+		max-width: 960px
+		padding: 30px 70px 40px 130px
+		margin: 0  0 0 -130px
+		font-size: 48px
+		line-height: 1
+		font-weight: 700
+		font-family: $font-cursive
+		background-image: url(../img/composition-ring.png)
+		background-repeat: no-repeat
+		background-position: 50% 50%
+		background-size: 100% 100%
+	&__list
+		padding: 75px 60px 40px 30px
+		margin-right: -60px
+		text-align: right
+		background-image: url(../img/composition-dotted-line.png)
+		background-repeat: no-repeat
+		background-position: 50% 50%
+		background-size: 100% 100%
+	&__item
+		&+&
+			margin-top: 50px
+	&__name
+		margin: 0
+		font-size: 24px
+		color: $color
+		font-weight: 700
+	&__text
+		margin: 0
+		font-size: 18px
+		line-height: 1.2

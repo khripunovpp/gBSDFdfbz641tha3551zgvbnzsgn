@@ -197,6 +197,8 @@ select::-ms-expand {
 
 .bx-controls {
   text-align: center;
+  font-size: 0;
+  margin-top: 15px;
 }
 
 .bx-pager-item {
@@ -973,6 +975,7 @@ select::-ms-expand {
   color: #eea407;
   text-shadow: -10px -3px 0 #fff, -10px -2px 0 #fff, -10px -1px 0 #fff, -10px 0px 0 #fff, -10px 1px 0 #fff, -10px 2px 0 #fff, -10px 3px 0 #fff, -9px -5px 0 #fff, -9px -4px 0 #fff, -9px -3px 0 #fff, -9px -2px 0 #fff, -9px -1px 0 #fff, -9px 0px 0 #fff, -9px 1px 0 #fff, -9px 2px 0 #fff, -9px 3px 0 #fff, -9px 4px 0 #fff, -9px 5px 0 #fff, -8px -7px 0 #fff, -8px -6px 0 #fff, -8px -5px 0 #fff, -8px -4px 0 #fff, -8px -3px 0 #fff, -8px -2px 0 #fff, -8px -1px 0 #fff, -8px 0px 0 #fff, -8px 1px 0 #fff, -8px 2px 0 #fff, -8px 3px 0 #fff, -8px 4px 0 #fff, -8px 5px 0 #fff, -8px 6px 0 #fff, -8px 7px 0 #fff, -7px -8px 0 #fff, -7px -7px 0 #fff, -7px -6px 0 #fff, -7px -5px 0 #fff, -7px -4px 0 #fff, -7px -3px 0 #fff, -7px -2px 0 #fff, -7px -1px 0 #fff, -7px 0px 0 #fff, -7px 1px 0 #fff, -7px 2px 0 #fff, -7px 3px 0 #fff, -7px 4px 0 #fff, -7px 5px 0 #fff, -7px 6px 0 #fff, -7px 7px 0 #fff, -7px 8px 0 #fff, -6px -8px 0 #fff, -6px -7px 0 #fff, -6px -6px 0 #fff, -6px -5px 0 #fff, -6px -4px 0 #fff, -6px -3px 0 #fff, -6px -2px 0 #fff, -6px -1px 0 #fff, -6px 0px 0 #fff, -6px 1px 0 #fff, -6px 2px 0 #fff, -6px 3px 0 #fff, -6px 4px 0 #fff, -6px 5px 0 #fff, -6px 6px 0 #fff, -6px 7px 0 #fff, -6px 8px 0 #fff, -5px -9px 0 #fff, -5px -8px 0 #fff, -5px -7px 0 #fff, -5px -6px 0 #fff, -5px -5px 0 #fff, -5px -4px 0 #fff, -5px -3px 0 #fff, -5px -2px 0 #fff, -5px -1px 0 #fff, -5px 0px 0 #fff, -5px 1px 0 #fff, -5px 2px 0 #fff, -5px 3px 0 #fff, -5px 4px 0 #fff, -5px 5px 0 #fff, -5px 6px 0 #fff, -5px 7px 0 #fff, -5px 8px 0 #fff, -5px 9px 0 #fff, -4px -9px 0 #fff, -4px -8px 0 #fff, -4px -7px 0 #fff, -4px -6px 0 #fff, -4px -5px 0 #fff, -4px -4px 0 #fff, -4px -3px 0 #fff, -4px -2px 0 #fff, -4px -1px 0 #fff, -4px 0px 0 #fff, -4px 1px 0 #fff, -4px 2px 0 #fff, -4px 3px 0 #fff, -4px 4px 0 #fff, -4px 5px 0 #fff, -4px 6px 0 #fff, -4px 7px 0 #fff, -4px 8px 0 #fff, -4px 9px 0 #fff, -3px -10px 0 #fff, -3px -9px 0 #fff, -3px -8px 0 #fff, -3px -7px 0 #fff, -3px -6px 0 #fff, -3px -5px 0 #fff, -3px -4px 0 #fff, -3px -3px 0 #fff, -3px -2px 0 #fff, -3px -1px 0 #fff, -3px 0px 0 #fff, -3px 1px 0 #fff, -3px 2px 0 #fff, -3px 3px 0 #fff, -3px 4px 0 #fff, -3px 5px 0 #fff, -3px 6px 0 #fff, -3px 7px 0 #fff, -3px 8px 0 #fff, -3px 9px 0 #fff, -3px 10px 0 #fff, -2px -10px 0 #fff, -2px -9px 0 #fff, -2px -8px 0 #fff, -2px -7px 0 #fff, -2px -6px 0 #fff, -2px -5px 0 #fff, -2px -4px 0 #fff, -2px -3px 0 #fff, -2px -2px 0 #fff, -2px -1px 0 #fff, -2px 0px 0 #fff, -2px 1px 0 #fff, -2px 2px 0 #fff, -2px 3px 0 #fff, -2px 4px 0 #fff, -2px 5px 0 #fff, -2px 6px 0 #fff, -2px 7px 0 #fff, -2px 8px 0 #fff, -2px 9px 0 #fff, -2px 10px 0 #fff, -1px -10px 0 #fff, -1px -9px 0 #fff, -1px -8px 0 #fff, -1px -7px 0 #fff, -1px -6px 0 #fff, -1px -5px 0 #fff, -1px -4px 0 #fff, -1px -3px 0 #fff, -1px -2px 0 #fff, -1px -1px 0 #fff, -1px 0px 0 #fff, -1px 1px 0 #fff, -1px 2px 0 #fff, -1px 3px 0 #fff, -1px 4px 0 #fff, -1px 5px 0 #fff, -1px 6px 0 #fff, -1px 7px 0 #fff, -1px 8px 0 #fff, -1px 9px 0 #fff, -1px 10px 0 #fff, 0px -10px 0 #fff, 0px -9px 0 #fff, 0px -8px 0 #fff, 0px -7px 0 #fff, 0px -6px 0 #fff, 0px -5px 0 #fff, 0px -4px 0 #fff, 0px -3px 0 #fff, 0px -2px 0 #fff, 0px -1px 0 #fff, 0px 0px 0 #fff, 0px 1px 0 #fff, 0px 2px 0 #fff, 0px 3px 0 #fff, 0px 4px 0 #fff, 0px 5px 0 #fff, 0px 6px 0 #fff, 0px 7px 0 #fff, 0px 8px 0 #fff, 0px 9px 0 #fff, 0px 10px 0 #fff, 1px -10px 0 #fff, 1px -9px 0 #fff, 1px -8px 0 #fff, 1px -7px 0 #fff, 1px -6px 0 #fff, 1px -5px 0 #fff, 1px -4px 0 #fff, 1px -3px 0 #fff, 1px -2px 0 #fff, 1px -1px 0 #fff, 1px 0px 0 #fff, 1px 1px 0 #fff, 1px 2px 0 #fff, 1px 3px 0 #fff, 1px 4px 0 #fff, 1px 5px 0 #fff, 1px 6px 0 #fff, 1px 7px 0 #fff, 1px 8px 0 #fff, 1px 9px 0 #fff, 1px 10px 0 #fff, 2px -10px 0 #fff, 2px -9px 0 #fff, 2px -8px 0 #fff, 2px -7px 0 #fff, 2px -6px 0 #fff, 2px -5px 0 #fff, 2px -4px 0 #fff, 2px -3px 0 #fff, 2px -2px 0 #fff, 2px -1px 0 #fff, 2px 0px 0 #fff, 2px 1px 0 #fff, 2px 2px 0 #fff, 2px 3px 0 #fff, 2px 4px 0 #fff, 2px 5px 0 #fff, 2px 6px 0 #fff, 2px 7px 0 #fff, 2px 8px 0 #fff, 2px 9px 0 #fff, 2px 10px 0 #fff, 3px -10px 0 #fff, 3px -9px 0 #fff, 3px -8px 0 #fff, 3px -7px 0 #fff, 3px -6px 0 #fff, 3px -5px 0 #fff, 3px -4px 0 #fff, 3px -3px 0 #fff, 3px -2px 0 #fff, 3px -1px 0 #fff, 3px 0px 0 #fff, 3px 1px 0 #fff, 3px 2px 0 #fff, 3px 3px 0 #fff, 3px 4px 0 #fff, 3px 5px 0 #fff, 3px 6px 0 #fff, 3px 7px 0 #fff, 3px 8px 0 #fff, 3px 9px 0 #fff, 3px 10px 0 #fff, 4px -9px 0 #fff, 4px -8px 0 #fff, 4px -7px 0 #fff, 4px -6px 0 #fff, 4px -5px 0 #fff, 4px -4px 0 #fff, 4px -3px 0 #fff, 4px -2px 0 #fff, 4px -1px 0 #fff, 4px 0px 0 #fff, 4px 1px 0 #fff, 4px 2px 0 #fff, 4px 3px 0 #fff, 4px 4px 0 #fff, 4px 5px 0 #fff, 4px 6px 0 #fff, 4px 7px 0 #fff, 4px 8px 0 #fff, 4px 9px 0 #fff, 5px -9px 0 #fff, 5px -8px 0 #fff, 5px -7px 0 #fff, 5px -6px 0 #fff, 5px -5px 0 #fff, 5px -4px 0 #fff, 5px -3px 0 #fff, 5px -2px 0 #fff, 5px -1px 0 #fff, 5px 0px 0 #fff, 5px 1px 0 #fff, 5px 2px 0 #fff, 5px 3px 0 #fff, 5px 4px 0 #fff, 5px 5px 0 #fff, 5px 6px 0 #fff, 5px 7px 0 #fff, 5px 8px 0 #fff, 5px 9px 0 #fff, 6px -8px 0 #fff, 6px -7px 0 #fff, 6px -6px 0 #fff, 6px -5px 0 #fff, 6px -4px 0 #fff, 6px -3px 0 #fff, 6px -2px 0 #fff, 6px -1px 0 #fff, 6px 0px 0 #fff, 6px 1px 0 #fff, 6px 2px 0 #fff, 6px 3px 0 #fff, 6px 4px 0 #fff, 6px 5px 0 #fff, 6px 6px 0 #fff, 6px 7px 0 #fff, 6px 8px 0 #fff, 7px -8px 0 #fff, 7px -7px 0 #fff, 7px -6px 0 #fff, 7px -5px 0 #fff, 7px -4px 0 #fff, 7px -3px 0 #fff, 7px -2px 0 #fff, 7px -1px 0 #fff, 7px 0px 0 #fff, 7px 1px 0 #fff, 7px 2px 0 #fff, 7px 3px 0 #fff, 7px 4px 0 #fff, 7px 5px 0 #fff, 7px 6px 0 #fff, 7px 7px 0 #fff, 7px 8px 0 #fff, 8px -7px 0 #fff, 8px -6px 0 #fff, 8px -5px 0 #fff, 8px -4px 0 #fff, 8px -3px 0 #fff, 8px -2px 0 #fff, 8px -1px 0 #fff, 8px 0px 0 #fff, 8px 1px 0 #fff, 8px 2px 0 #fff, 8px 3px 0 #fff, 8px 4px 0 #fff, 8px 5px 0 #fff, 8px 6px 0 #fff, 8px 7px 0 #fff, 9px -5px 0 #fff, 9px -4px 0 #fff, 9px -3px 0 #fff, 9px -2px 0 #fff, 9px -1px 0 #fff, 9px 0px 0 #fff, 9px 1px 0 #fff, 9px 2px 0 #fff, 9px 3px 0 #fff, 9px 4px 0 #fff, 9px 5px 0 #fff, 10px -3px 0 #fff, 10px -2px 0 #fff, 10px -1px 0 #fff, 10px 0px 0 #fff, 10px 1px 0 #fff, 10px 2px 0 #fff, 10px 3px 0 #fff;
   margin: 0;
+  line-height: 1;
   position: relative;
   padding-top: 80px;
 }
@@ -995,7 +998,7 @@ select::-ms-expand {
   font-size: 30px;
   font-weight: 700;
   line-height: 1.1;
-  margin: 10px 0 0;
+  margin: 30px 0 0;
 }
 
 .b-month__weeks {
@@ -1276,6 +1279,12 @@ select::-ms-expand {
   .c-btn {
     max-width: 250px;
     font-size: 25px;
+  }
+  .c-btn__icon {
+    width: 30px;
+    height: 30px;
+    -webkit-background-size: cover;
+    background-size: cover;
   }
   .w-page::before {
     width: 850px;
@@ -1662,5 +1671,87 @@ select::-ms-expand {
     height: 63px;
     bottom: 0;
     left: 90px;
+  }
+  .b-month {
+    margin-top: 25px;
+    padding-top: 0;
+    font-size: 0;
+  }
+  .b-month__title {
+    text-align: center;
+    font-size: 45px;
+    text-shadow: -6px -2px 0 #fff, -6px -1px 0 #fff, -6px 0px 0 #fff, -6px 1px 0 #fff, -6px 2px 0 #fff, -5px -4px 0 #fff, -5px -3px 0 #fff, -5px -2px 0 #fff, -5px -1px 0 #fff, -5px 0px 0 #fff, -5px 1px 0 #fff, -5px 2px 0 #fff, -5px 3px 0 #fff, -5px 4px 0 #fff, -4px -5px 0 #fff, -4px -4px 0 #fff, -4px -3px 0 #fff, -4px -2px 0 #fff, -4px -1px 0 #fff, -4px 0px 0 #fff, -4px 1px 0 #fff, -4px 2px 0 #fff, -4px 3px 0 #fff, -4px 4px 0 #fff, -4px 5px 0 #fff, -3px -5px 0 #fff, -3px -4px 0 #fff, -3px -3px 0 #fff, -3px -2px 0 #fff, -3px -1px 0 #fff, -3px 0px 0 #fff, -3px 1px 0 #fff, -3px 2px 0 #fff, -3px 3px 0 #fff, -3px 4px 0 #fff, -3px 5px 0 #fff, -2px -6px 0 #fff, -2px -5px 0 #fff, -2px -4px 0 #fff, -2px -3px 0 #fff, -2px -2px 0 #fff, -2px -1px 0 #fff, -2px 0px 0 #fff, -2px 1px 0 #fff, -2px 2px 0 #fff, -2px 3px 0 #fff, -2px 4px 0 #fff, -2px 5px 0 #fff, -2px 6px 0 #fff, -1px -6px 0 #fff, -1px -5px 0 #fff, -1px -4px 0 #fff, -1px -3px 0 #fff, -1px -2px 0 #fff, -1px -1px 0 #fff, -1px 0px 0 #fff, -1px 1px 0 #fff, -1px 2px 0 #fff, -1px 3px 0 #fff, -1px 4px 0 #fff, -1px 5px 0 #fff, -1px 6px 0 #fff, 0px -6px 0 #fff, 0px -5px 0 #fff, 0px -4px 0 #fff, 0px -3px 0 #fff, 0px -2px 0 #fff, 0px -1px 0 #fff, 0px 0px 0 #fff, 0px 1px 0 #fff, 0px 2px 0 #fff, 0px 3px 0 #fff, 0px 4px 0 #fff, 0px 5px 0 #fff, 0px 6px 0 #fff, 1px -6px 0 #fff, 1px -5px 0 #fff, 1px -4px 0 #fff, 1px -3px 0 #fff, 1px -2px 0 #fff, 1px -1px 0 #fff, 1px 0px 0 #fff, 1px 1px 0 #fff, 1px 2px 0 #fff, 1px 3px 0 #fff, 1px 4px 0 #fff, 1px 5px 0 #fff, 1px 6px 0 #fff, 2px -6px 0 #fff, 2px -5px 0 #fff, 2px -4px 0 #fff, 2px -3px 0 #fff, 2px -2px 0 #fff, 2px -1px 0 #fff, 2px 0px 0 #fff, 2px 1px 0 #fff, 2px 2px 0 #fff, 2px 3px 0 #fff, 2px 4px 0 #fff, 2px 5px 0 #fff, 2px 6px 0 #fff, 3px -5px 0 #fff, 3px -4px 0 #fff, 3px -3px 0 #fff, 3px -2px 0 #fff, 3px -1px 0 #fff, 3px 0px 0 #fff, 3px 1px 0 #fff, 3px 2px 0 #fff, 3px 3px 0 #fff, 3px 4px 0 #fff, 3px 5px 0 #fff, 4px -5px 0 #fff, 4px -4px 0 #fff, 4px -3px 0 #fff, 4px -2px 0 #fff, 4px -1px 0 #fff, 4px 0px 0 #fff, 4px 1px 0 #fff, 4px 2px 0 #fff, 4px 3px 0 #fff, 4px 4px 0 #fff, 4px 5px 0 #fff, 5px -4px 0 #fff, 5px -3px 0 #fff, 5px -2px 0 #fff, 5px -1px 0 #fff, 5px 0px 0 #fff, 5px 1px 0 #fff, 5px 2px 0 #fff, 5px 3px 0 #fff, 5px 4px 0 #fff, 6px -2px 0 #fff, 6px -1px 0 #fff, 6px 0px 0 #fff, 6px 1px 0 #fff, 6px 2px 0 #fff;
+    padding-top: 65px;
+  }
+  .b-month__title::before {
+    width: 80px;
+    height: 69px;
+    left: 75px;
+  }
+  .b-month__subcap {
+    font-size: 20px;
+  }
+  .b-month__weeks {
+    max-width: none;
+    padding: 0;
+    background-image: none;
+    margin: 0;
+  }
+  .b-month__week {
+    display: block;
+    margin: 0 !important;
+    min-height: auto;
+  }
+  .b-month__count {
+    font-size: 20px;
+  }
+  .b-month__text {
+    font-size: 16px;
+  }
+  .b-month__slogan {
+    font-size: 36px;
+    margin-top: 15px;
+  }
+  .b-month__btn {
+    display: table;
+    margin: 0 auto 40px;
+    font-size: 16px;
+    padding: 7px 10px 5px 20px;
+  }
+  .b-month__girl {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 547px;
+    height: 650px;
+    margin-left: -135px;
+    margin-top: -120px;
+    margin-bottom: -150px;
+    background-image: url(../img/month-girl-mobile.png);
+  }
+  .b-month__lens {
+    width: 429px;
+    height: 413px;
+    top: 325px;
+    right: -145px;
+    background-image: url(../img/month-lens-mobile.png);
+  }
+  .b-month__before, .b-month__after {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    bottom: auto;
+    right: auto;
+  }
+  .b-month__before {
+    left: 15px;
+    margin-top: 60px;
+  }
+  .b-month__after {
+    left: -15px;
+    top: -30px;
+  }
+  .b-month__label {
+    font-size: 23px;
   }
 }

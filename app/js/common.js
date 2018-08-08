@@ -174,4 +174,18 @@ $(function() {
         slideMargin: 7
     });
 
+    _bxInnit('.b-month__weeks', {
+        view: 'mobile',
+        slideSelector: '.b-month__week',
+        adaptiveHeight: true,
+        swipeThreshold: 40,
+        controls: false,
+        pager: true,
+        auto: true,
+        pause: 10000,
+        autoHover: true,
+        infiniteLoop: true,
+        slideMargin: 7
+    });
+
 });

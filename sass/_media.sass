@@ -13,6 +13,10 @@
 	.c-btn
 		max-width: 250px
 		font-size: 25px
+		&__icon
+			width: 30px
+			height: 30px
+			background-size: cover
 
 	.container
 		@extend %container-small
@@ -328,4 +332,72 @@
 			height: 63px
 			bottom: 0
 			left: 90px
+
+	.b-month
+		margin-top: 25px
+		padding-top: 0
+		font-size: 0
+		&__title
+			text-align: center
+			font-size: 45px
+			+text-stroke(6, #fff)
+			padding-top: 65px
+			&::before
+				width: 80px
+				height: 69px
+				left: 75px
+		&__subcap
+			font-size: 20px
+		&__weeks
+			max-width: none
+			padding: 0
+			background-image: none
+			margin: 0
+		&__week
+			display: block
+			margin: 0 !important
+			min-height: auto
+		&__count
+			font-size: 20px
+		&__text
+			font-size: 16px
+		&__slogan
+			font-size: 36px
+			margin-top: 15px
+		&__btn
+			display: table
+			margin: 0 auto 40px
+			font-size: 16px
+			padding: 7px 10px 5px 20px
+		&__girl
+			position: relative
+			top: auto
+			right: auto
+			width: 547px
+			height: 650px
+			margin-left: -135px
+			margin-top: -120px
+			margin-bottom: -150px
+			background-image: url(../img/month-girl-mobile.png)
+		&__lens
+			width: 429px
+			height: 413px
+			top: 325px
+			right: -145px
+			background-image: url(../img/month-lens-mobile.png)
+		&__before,
+		&__after
+			display: inline-block
+			width: 50%
+			position: relative
+			bottom: auto
+			right: auto
+		&__before
+			left: 15px
+			margin-top: 60px
+		&__after
+			left: -15px
+			top: -30px
+		&__label
+			font-size: 23px
 

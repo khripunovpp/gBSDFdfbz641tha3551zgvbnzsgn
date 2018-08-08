@@ -32,7 +32,7 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.4;
   font-size: 14px;
-  background-color: #eeeff3;
+  background-color: #f7f7f7;
 }
 
 .w-page {
@@ -171,7 +171,7 @@ select::-ms-expand {
   height: 64px;
 }
 
-.b-header__nut--3, .b-promo__nut--1, .b-promo__nut--2 {
+.b-header__nut--3, .b-promo__nut--1, .b-promo__nut--2, .b-use__nut--1 {
   background-image: url(../img/nut-3.png);
   width: 71px;
   height: 71px;
@@ -189,10 +189,34 @@ select::-ms-expand {
   height: 79px;
 }
 
-.b-header__nut--7, .b-promo__nut--3 {
+.b-header__nut--7, .b-promo__nut--3, .b-use__nut--4 {
   background-image: url(../img/nut-6.png);
   width: 70px;
   height: 82px;
+}
+
+.b-use__nut--3 {
+  background-image: url(../img/nut-8.png);
+  width: 74px;
+  height: 81px;
+}
+
+.b-use__nut--2 {
+  background-image: url(../img/nut-9.png);
+  width: 78px;
+  height: 61px;
+}
+
+.b-use__nut--5 {
+  background-image: url(../img/nut-10.png);
+  width: 330px;
+  height: 276px;
+}
+
+.b-use__nut--6 {
+  background-image: url(../img/nut-11.png);
+  width: 330px;
+  height: 168px;
 }
 
 .bx-controls {
@@ -279,7 +303,7 @@ select::-ms-expand {
   right: 145px;
   width: 79px;
   height: 88px;
-  background-image: url(../img/icon-arrow-curve-1.png);
+  background-image: url(../img/header-arrow.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   -webkit-transform: rotate(20deg);
@@ -292,7 +316,7 @@ select::-ms-expand {
   max-width: 375px;
   padding: 50px 5px 50px 60px;
   margin: 20px 0 0;
-  background-image: url(../img/dotted-line.png);
+  background-image: url(../img/header-dotted-line.png);
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
@@ -315,7 +339,7 @@ select::-ms-expand {
   left: 0;
   width: 50px;
   height: 50px;
-  background-image: url(../img/icon-check-1.png);
+  background-image: url(../img/header-icon-check.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -512,7 +536,7 @@ select::-ms-expand {
   position: absolute;
   width: 41px;
   height: 57px;
-  background-image: url(../img/icon-arrow-curve-2.png);
+  background-image: url(../img/causes-arrow.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   -webkit-background-size: cover;
@@ -1116,6 +1140,233 @@ select::-ms-expand {
   height: 543px;
 }
 
+.b-use {
+  padding-top: 65px;
+}
+
+.b-use__inner {
+  position: relative;
+}
+
+.b-use__title {
+  padding-left: 40%;
+  text-align: right;
+  font-size: 48px;
+  line-height: 1;
+  color: #ff0165;
+  margin: 0 0 20px;
+}
+
+.b-use__wrap {
+  background-color: #eeeff3;
+  border: 7px solid #fff;
+  padding: 50px 20px 50px 200px;
+  -webkit-box-shadow: 0 110px 100px -100px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 110px 100px -100px rgba(0, 0, 0, 0.5);
+}
+
+.b-use__way {
+  counter-reset: usesteps;
+}
+
+.b-use__step {
+  position: relative;
+}
+
+.b-use__step--1 {
+  margin-bottom: -55px;
+}
+
+.b-use__step--1::after {
+  top: 95px;
+  left: 185px;
+}
+
+.b-use__step--1::before {
+  left: 175px;
+}
+
+.b-use__step--2 {
+  padding-left: 200px;
+  margin-bottom: -55px;
+}
+
+.b-use__step--2::after {
+  top: 95px;
+  left: 385px;
+  -webkit-transform: scale(-1, 1) rotate(90deg);
+  -ms-transform: scale(-1, 1) rotate(90deg);
+  transform: scale(-1, 1) rotate(90deg);
+}
+
+.b-use__step--2::before {
+  left: 375px;
+}
+
+.b-use__step--3 {
+  direction: rtl;
+  padding-left: 145px;
+}
+
+.b-use__step--3 .b-use__img, .b-use__step--3 .b-use__text {
+  vertical-align: bottom;
+}
+
+.b-use__step--3 .b-use__text {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.b-use__step--3::after {
+  display: none;
+}
+
+.b-use__step--3::before {
+  left: 575px;
+}
+
+.b-use__step::before {
+  counter-increment: usesteps;
+  content: "0" counter(usesteps);
+  position: absolute;
+  top: -25px;
+  z-index: 3;
+  width: 70px;
+  height: 65px;
+  font-family: "Caveat", cursive;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 62px;
+  padding-left: 11px;
+  background-image: url(../img/use-numberring.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.b-use__step::after {
+  content: '';
+  position: absolute;
+  z-index: 3;
+  width: 45px;
+  height: 44px;
+  background-image: url(../img/use-arrow.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.b-use__img {
+  border: 5px solid #fff;
+  -webkit-box-shadow: 0 40px 30px -30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 40px 30px -30px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  z-index: 2;
+}
+
+.b-use__text {
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  margin: 0;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.b-use__text b {
+  color: #ff0165;
+}
+
+.b-use__product {
+  position: absolute;
+  bottom: -25px;
+  left: -25px;
+}
+
+.b-use__product img {
+  position: relative;
+  z-index: 1;
+}
+
+.b-use__nut {
+  position: absolute;
+}
+
+.b-use__nut--1 {
+  top: -115px;
+  right: 400px;
+}
+
+.b-use__nut--2 {
+  bottom: -100px;
+  left: 300px;
+}
+
+.b-use__nut--3 {
+  top: 75px;
+  left: 10px;
+}
+
+.b-use__nut--4 {
+  top: 75px;
+  left: -15px;
+  z-index: 2;
+}
+
+.b-use__nut--5 {
+  bottom: 0;
+  left: 40px;
+}
+
+.b-use__nut--6 {
+  bottom: 55px;
+  left: 40px;
+}
+
+.b-use__flowers {
+  position: absolute;
+  background-image: url(../img/use-flowers.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 143px;
+  height: 160px;
+  bottom: -50px;
+  left: 150px;
+}
+
+.b-use__wave {
+  position: absolute;
+  display: none;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.b-use__wave--1 {
+  background-image: url(../img/use-wave-1.png);
+  width: 115px;
+  height: 83px;
+}
+
+.b-use__wave--2 {
+  background-image: url(../img/use-wave-2.png);
+  width: 96px;
+  height: 97px;
+}
+
+.b-use__wave--3 {
+  background-image: url(../img/use-wave-3.png);
+  width: 96px;
+  height: 94px;
+}
+
+.b-use__wave--4 {
+  background-image: url(../img/use-wave-4.png);
+  width: 86px;
+  height: 84px;
+}
+
 @-webkit-keyframes bounceIn {
   0% {
     opacity: 0;
@@ -1257,9 +1508,14 @@ select::-ms-expand {
   animation-delay: .03s;
 }
 
+.b-month.js-isonscreen .b-month__before {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
 .b-month.js-isonscreen .b-month__after {
-  -webkit-animation-delay: .3s;
-  animation-delay: .3s;
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.3s;
 }
 
 @media only screen and (max-width: 991px) {
@@ -1362,7 +1618,7 @@ select::-ms-expand {
     display: block;
     margin: -45px 0 0;
     padding: 75px 0 45px;
-    background-image: url(../img/dotted-line-mobile.png);
+    background-image: url(../img/header-dotted-line-mobile.png);
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
     position: relative;

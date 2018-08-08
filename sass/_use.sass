@@ -1,0 +1,156 @@
+.b-use
+	padding-top: 65px
+	&__inner
+		position: relative
+	&__title
+		padding-left: 40%
+		text-align: right
+		font-size: 48px
+		line-height: 1
+		color: $color
+		margin: 0 0 20px
+	&__wrap
+		background-color: #eeeff3
+		border: 7px solid #fff
+		padding: 50px 20px 50px 200px
+		box-shadow: 0 110px 100px -100px rgba(0, 0, 0, 0.5)
+	&__way
+		counter-reset: usesteps
+	&__step
+		position: relative
+		&--1
+			margin-bottom: -55px
+			&::after
+				top: 95px
+				left: 185px
+			&::before
+				left: 175px
+		&--2
+			padding-left: 200px
+			margin-bottom: -55px
+			&::after
+				top: 95px
+				left: 385px
+				transform: scale(-1,1) rotate(90deg)
+			&::before
+				left: 375px
+		&--3
+			direction: rtl
+			padding-left: 145px
+			.b-use
+				&__img,
+				&__text
+					vertical-align: bottom
+				&__text
+					padding-left: 0
+					padding-right: 10px
+			&::after
+				display: none
+			&::before
+				left: 575px
+		&::before
+			counter-increment: usesteps
+			content: '0' counter(usesteps)
+			position: absolute
+			top: -25px
+			z-index: 3
+			width: 70px
+			height: 65px
+			font-family: $font-cursive
+			font-size: 42px
+			font-weight: 700
+			line-height: 62px
+			padding-left: 11px
+			background-image: url(../img/use-numberring.png)
+			background-repeat: no-repeat
+			background-position: 50% 50%
+		&::after
+			content: ''
+			position: absolute
+			z-index: 3
+			width: 45px
+			height: 44px
+			background-image: url(../img/use-arrow.png)
+			background-repeat: no-repeat
+			background-position: 50% 50%
+	&__img
+		border: 5px solid #fff
+		box-shadow: 0 40px 30px -30px rgba(0, 0, 0, 0.5)
+		display: inline-block
+		vertical-align: top
+		position: relative
+		z-index: 2
+	&__text
+		display: inline-block
+		vertical-align: top
+		width: 250px
+		margin: 0
+		font-size: 18px
+		padding-left: 10px
+		b
+			color: $color
+	&__product
+		position: absolute
+		bottom: -25px
+		left: -25px
+		img
+			position: relative
+			z-index: 1
+	&__nut
+		position: absolute
+		&--1
+			@extend %nut3
+			top: -115px
+			right: 400px
+		&--2
+			@extend %nut9
+			bottom: -100px
+			left: 300px
+		&--3
+			@extend %nut8
+			top: 75px
+			left: 10px
+		&--4
+			@extend %nut6
+			top: 75px
+			left: -15px
+			z-index: 2
+		&--5
+			@extend %nut10
+			bottom: 0
+			left: 40px
+		&--6
+			@extend %nut11
+			bottom: 55px
+			left: 40px
+	&__flowers
+		position: absolute
+		background-image: url(../img/use-flowers.png)
+		background-repeat: no-repeat
+		background-position: 50% 50%
+		background-size: cover
+		width: 143px
+		height: 160px
+		bottom: -50px
+		left: 150px
+	&__wave
+		position: absolute
+		display: none
+		background-repeat: no-repeat
+		background-position: 50% 50%
+		&--1
+			background-image: url(../img/use-wave-1.png)
+			width: 115px
+			height: 83px
+		&--2
+			background-image: url(../img/use-wave-2.png)
+			width: 96px
+			height: 97px
+		&--3
+			background-image: url(../img/use-wave-3.png)
+			width: 96px
+			height: 94px
+		&--4
+			background-image: url(../img/use-wave-4.png)
+			width: 86px
+			height: 84px

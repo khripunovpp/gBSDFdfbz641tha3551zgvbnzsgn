@@ -844,6 +844,8 @@ select::-ms-expand {
   padding-left: 45%;
   text-align: right;
   margin: 0 0 -40px;
+  position: relative;
+  z-index: 1;
 }
 
 .b-composition__product {
@@ -908,6 +910,8 @@ select::-ms-expand {
   font-size: 96px;
   margin: -115px 0 -30px;
   text-align: right;
+  position: relative;
+  z-index: 1;
 }
 
 .b-composition__slogan {
@@ -951,6 +955,162 @@ select::-ms-expand {
   margin: 0;
   font-size: 18px;
   line-height: 1.2;
+}
+
+.b-month {
+  padding-top: 270px;
+  margin-top: -250px;
+}
+
+.b-month__inner {
+  position: relative;
+}
+
+.b-month__title {
+  font-size: 120px;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  color: #eea407;
+  text-shadow: -10px -3px 0 #fff, -10px -2px 0 #fff, -10px -1px 0 #fff, -10px 0px 0 #fff, -10px 1px 0 #fff, -10px 2px 0 #fff, -10px 3px 0 #fff, -9px -5px 0 #fff, -9px -4px 0 #fff, -9px -3px 0 #fff, -9px -2px 0 #fff, -9px -1px 0 #fff, -9px 0px 0 #fff, -9px 1px 0 #fff, -9px 2px 0 #fff, -9px 3px 0 #fff, -9px 4px 0 #fff, -9px 5px 0 #fff, -8px -7px 0 #fff, -8px -6px 0 #fff, -8px -5px 0 #fff, -8px -4px 0 #fff, -8px -3px 0 #fff, -8px -2px 0 #fff, -8px -1px 0 #fff, -8px 0px 0 #fff, -8px 1px 0 #fff, -8px 2px 0 #fff, -8px 3px 0 #fff, -8px 4px 0 #fff, -8px 5px 0 #fff, -8px 6px 0 #fff, -8px 7px 0 #fff, -7px -8px 0 #fff, -7px -7px 0 #fff, -7px -6px 0 #fff, -7px -5px 0 #fff, -7px -4px 0 #fff, -7px -3px 0 #fff, -7px -2px 0 #fff, -7px -1px 0 #fff, -7px 0px 0 #fff, -7px 1px 0 #fff, -7px 2px 0 #fff, -7px 3px 0 #fff, -7px 4px 0 #fff, -7px 5px 0 #fff, -7px 6px 0 #fff, -7px 7px 0 #fff, -7px 8px 0 #fff, -6px -8px 0 #fff, -6px -7px 0 #fff, -6px -6px 0 #fff, -6px -5px 0 #fff, -6px -4px 0 #fff, -6px -3px 0 #fff, -6px -2px 0 #fff, -6px -1px 0 #fff, -6px 0px 0 #fff, -6px 1px 0 #fff, -6px 2px 0 #fff, -6px 3px 0 #fff, -6px 4px 0 #fff, -6px 5px 0 #fff, -6px 6px 0 #fff, -6px 7px 0 #fff, -6px 8px 0 #fff, -5px -9px 0 #fff, -5px -8px 0 #fff, -5px -7px 0 #fff, -5px -6px 0 #fff, -5px -5px 0 #fff, -5px -4px 0 #fff, -5px -3px 0 #fff, -5px -2px 0 #fff, -5px -1px 0 #fff, -5px 0px 0 #fff, -5px 1px 0 #fff, -5px 2px 0 #fff, -5px 3px 0 #fff, -5px 4px 0 #fff, -5px 5px 0 #fff, -5px 6px 0 #fff, -5px 7px 0 #fff, -5px 8px 0 #fff, -5px 9px 0 #fff, -4px -9px 0 #fff, -4px -8px 0 #fff, -4px -7px 0 #fff, -4px -6px 0 #fff, -4px -5px 0 #fff, -4px -4px 0 #fff, -4px -3px 0 #fff, -4px -2px 0 #fff, -4px -1px 0 #fff, -4px 0px 0 #fff, -4px 1px 0 #fff, -4px 2px 0 #fff, -4px 3px 0 #fff, -4px 4px 0 #fff, -4px 5px 0 #fff, -4px 6px 0 #fff, -4px 7px 0 #fff, -4px 8px 0 #fff, -4px 9px 0 #fff, -3px -10px 0 #fff, -3px -9px 0 #fff, -3px -8px 0 #fff, -3px -7px 0 #fff, -3px -6px 0 #fff, -3px -5px 0 #fff, -3px -4px 0 #fff, -3px -3px 0 #fff, -3px -2px 0 #fff, -3px -1px 0 #fff, -3px 0px 0 #fff, -3px 1px 0 #fff, -3px 2px 0 #fff, -3px 3px 0 #fff, -3px 4px 0 #fff, -3px 5px 0 #fff, -3px 6px 0 #fff, -3px 7px 0 #fff, -3px 8px 0 #fff, -3px 9px 0 #fff, -3px 10px 0 #fff, -2px -10px 0 #fff, -2px -9px 0 #fff, -2px -8px 0 #fff, -2px -7px 0 #fff, -2px -6px 0 #fff, -2px -5px 0 #fff, -2px -4px 0 #fff, -2px -3px 0 #fff, -2px -2px 0 #fff, -2px -1px 0 #fff, -2px 0px 0 #fff, -2px 1px 0 #fff, -2px 2px 0 #fff, -2px 3px 0 #fff, -2px 4px 0 #fff, -2px 5px 0 #fff, -2px 6px 0 #fff, -2px 7px 0 #fff, -2px 8px 0 #fff, -2px 9px 0 #fff, -2px 10px 0 #fff, -1px -10px 0 #fff, -1px -9px 0 #fff, -1px -8px 0 #fff, -1px -7px 0 #fff, -1px -6px 0 #fff, -1px -5px 0 #fff, -1px -4px 0 #fff, -1px -3px 0 #fff, -1px -2px 0 #fff, -1px -1px 0 #fff, -1px 0px 0 #fff, -1px 1px 0 #fff, -1px 2px 0 #fff, -1px 3px 0 #fff, -1px 4px 0 #fff, -1px 5px 0 #fff, -1px 6px 0 #fff, -1px 7px 0 #fff, -1px 8px 0 #fff, -1px 9px 0 #fff, -1px 10px 0 #fff, 0px -10px 0 #fff, 0px -9px 0 #fff, 0px -8px 0 #fff, 0px -7px 0 #fff, 0px -6px 0 #fff, 0px -5px 0 #fff, 0px -4px 0 #fff, 0px -3px 0 #fff, 0px -2px 0 #fff, 0px -1px 0 #fff, 0px 0px 0 #fff, 0px 1px 0 #fff, 0px 2px 0 #fff, 0px 3px 0 #fff, 0px 4px 0 #fff, 0px 5px 0 #fff, 0px 6px 0 #fff, 0px 7px 0 #fff, 0px 8px 0 #fff, 0px 9px 0 #fff, 0px 10px 0 #fff, 1px -10px 0 #fff, 1px -9px 0 #fff, 1px -8px 0 #fff, 1px -7px 0 #fff, 1px -6px 0 #fff, 1px -5px 0 #fff, 1px -4px 0 #fff, 1px -3px 0 #fff, 1px -2px 0 #fff, 1px -1px 0 #fff, 1px 0px 0 #fff, 1px 1px 0 #fff, 1px 2px 0 #fff, 1px 3px 0 #fff, 1px 4px 0 #fff, 1px 5px 0 #fff, 1px 6px 0 #fff, 1px 7px 0 #fff, 1px 8px 0 #fff, 1px 9px 0 #fff, 1px 10px 0 #fff, 2px -10px 0 #fff, 2px -9px 0 #fff, 2px -8px 0 #fff, 2px -7px 0 #fff, 2px -6px 0 #fff, 2px -5px 0 #fff, 2px -4px 0 #fff, 2px -3px 0 #fff, 2px -2px 0 #fff, 2px -1px 0 #fff, 2px 0px 0 #fff, 2px 1px 0 #fff, 2px 2px 0 #fff, 2px 3px 0 #fff, 2px 4px 0 #fff, 2px 5px 0 #fff, 2px 6px 0 #fff, 2px 7px 0 #fff, 2px 8px 0 #fff, 2px 9px 0 #fff, 2px 10px 0 #fff, 3px -10px 0 #fff, 3px -9px 0 #fff, 3px -8px 0 #fff, 3px -7px 0 #fff, 3px -6px 0 #fff, 3px -5px 0 #fff, 3px -4px 0 #fff, 3px -3px 0 #fff, 3px -2px 0 #fff, 3px -1px 0 #fff, 3px 0px 0 #fff, 3px 1px 0 #fff, 3px 2px 0 #fff, 3px 3px 0 #fff, 3px 4px 0 #fff, 3px 5px 0 #fff, 3px 6px 0 #fff, 3px 7px 0 #fff, 3px 8px 0 #fff, 3px 9px 0 #fff, 3px 10px 0 #fff, 4px -9px 0 #fff, 4px -8px 0 #fff, 4px -7px 0 #fff, 4px -6px 0 #fff, 4px -5px 0 #fff, 4px -4px 0 #fff, 4px -3px 0 #fff, 4px -2px 0 #fff, 4px -1px 0 #fff, 4px 0px 0 #fff, 4px 1px 0 #fff, 4px 2px 0 #fff, 4px 3px 0 #fff, 4px 4px 0 #fff, 4px 5px 0 #fff, 4px 6px 0 #fff, 4px 7px 0 #fff, 4px 8px 0 #fff, 4px 9px 0 #fff, 5px -9px 0 #fff, 5px -8px 0 #fff, 5px -7px 0 #fff, 5px -6px 0 #fff, 5px -5px 0 #fff, 5px -4px 0 #fff, 5px -3px 0 #fff, 5px -2px 0 #fff, 5px -1px 0 #fff, 5px 0px 0 #fff, 5px 1px 0 #fff, 5px 2px 0 #fff, 5px 3px 0 #fff, 5px 4px 0 #fff, 5px 5px 0 #fff, 5px 6px 0 #fff, 5px 7px 0 #fff, 5px 8px 0 #fff, 5px 9px 0 #fff, 6px -8px 0 #fff, 6px -7px 0 #fff, 6px -6px 0 #fff, 6px -5px 0 #fff, 6px -4px 0 #fff, 6px -3px 0 #fff, 6px -2px 0 #fff, 6px -1px 0 #fff, 6px 0px 0 #fff, 6px 1px 0 #fff, 6px 2px 0 #fff, 6px 3px 0 #fff, 6px 4px 0 #fff, 6px 5px 0 #fff, 6px 6px 0 #fff, 6px 7px 0 #fff, 6px 8px 0 #fff, 7px -8px 0 #fff, 7px -7px 0 #fff, 7px -6px 0 #fff, 7px -5px 0 #fff, 7px -4px 0 #fff, 7px -3px 0 #fff, 7px -2px 0 #fff, 7px -1px 0 #fff, 7px 0px 0 #fff, 7px 1px 0 #fff, 7px 2px 0 #fff, 7px 3px 0 #fff, 7px 4px 0 #fff, 7px 5px 0 #fff, 7px 6px 0 #fff, 7px 7px 0 #fff, 7px 8px 0 #fff, 8px -7px 0 #fff, 8px -6px 0 #fff, 8px -5px 0 #fff, 8px -4px 0 #fff, 8px -3px 0 #fff, 8px -2px 0 #fff, 8px -1px 0 #fff, 8px 0px 0 #fff, 8px 1px 0 #fff, 8px 2px 0 #fff, 8px 3px 0 #fff, 8px 4px 0 #fff, 8px 5px 0 #fff, 8px 6px 0 #fff, 8px 7px 0 #fff, 9px -5px 0 #fff, 9px -4px 0 #fff, 9px -3px 0 #fff, 9px -2px 0 #fff, 9px -1px 0 #fff, 9px 0px 0 #fff, 9px 1px 0 #fff, 9px 2px 0 #fff, 9px 3px 0 #fff, 9px 4px 0 #fff, 9px 5px 0 #fff, 10px -3px 0 #fff, 10px -2px 0 #fff, 10px -1px 0 #fff, 10px 0px 0 #fff, 10px 1px 0 #fff, 10px 2px 0 #fff, 10px 3px 0 #fff;
+  margin: 0;
+  position: relative;
+  padding-top: 80px;
+}
+
+.b-month__title::before {
+  content: '';
+  position: absolute;
+  left: 170px;
+  top: 0;
+  background-image: url(../img/month-horn.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 150px;
+  height: 130px;
+}
+
+.b-month__subcap {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 10px 0 0;
+}
+
+.b-month__weeks {
+  max-width: 800px;
+  padding: 55px 30px 35px 100px;
+  margin-left: -100px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-size: 0;
+  background-image: url(../img/month-border.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.b-month__week {
+  min-height: 140px;
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+}
+
+.b-month__week:nth-of-type(even) {
+  margin-left: 4%;
+}
+
+.b-month__count {
+  color: #ff0165;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.b-month__text {
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.b-month__slogan {
+  max-width: 550px;
+  font-size: 70px;
+  line-height: .8;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  margin: 0 0 25px;
+}
+
+.b-month__before, .b-month__after {
+  position: absolute;
+}
+
+.b-month__before {
+  bottom: 30px;
+  right: 135px;
+  z-index: 1;
+}
+
+.b-month__before .b-month__label {
+  margin-left: -35px;
+  background-color: #4c5159;
+}
+
+.b-month__after {
+  bottom: 150px;
+  right: -40px;
+}
+
+.b-month__after .b-month__label {
+  margin-left: -27px;
+  background-color: #eea407;
+}
+
+.b-month__label {
+  position: absolute;
+  width: 70px;
+  bottom: 0;
+  left: 50%;
+  font-size: 33px;
+  line-height: 1;
+  text-align: center;
+  padding-bottom: 6px;
+  font-family: "Caveat", cursive;
+  color: #fff;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.b-month__girl {
+  position: absolute;
+  z-index: -1;
+  top: -200px;
+  right: -225px;
+  background-image: url(../img/month-girl.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 874px;
+  height: 1069px;
+}
+
+.b-month__lens {
+  position: absolute;
+  z-index: -1;
+  top: 215px;
+  right: -225px;
+  background-image: url(../img/month-lens.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 561px;
+  height: 543px;
 }
 
 @-webkit-keyframes bounceIn {
@@ -999,7 +1159,7 @@ select::-ms-expand {
   }
 }
 
-@-webkit-keyframes arrows {
+@-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1008,7 +1168,7 @@ select::-ms-expand {
   }
 }
 
-@keyframes arrows {
+@keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -1022,6 +1182,17 @@ select::-ms-expand {
   animation-name: bounceIn;
   -webkit-animation-duration: .45s;
   animation-duration: .45s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.b-month.js-isonscreen .b-month__before, .b-month.js-isonscreen .b-month__after {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
   -webkit-animation-fill-mode: forwards;
@@ -1044,14 +1215,18 @@ select::-ms-expand {
   opacity: 0;
 }
 
+.js-scroll-detection .b-month__after, .js-scroll-detection .b-month__before {
+  opacity: 0;
+}
+
 .b-header.js-isonscreen .b-header__subcap {
   -webkit-animation-delay: .03s;
   animation-delay: .03s;
 }
 
 .b-causes.js-isonscreen .b-causes__name::before {
-  -webkit-animation-name: arrows;
-  animation-name: arrows;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
   -webkit-animation-duration: .7s;
   animation-duration: .7s;
   -webkit-animation-timing-function: linear;
@@ -1077,6 +1252,11 @@ select::-ms-expand {
 .b-composition__slogan.js-isonscreen {
   -webkit-animation-delay: .03s;
   animation-delay: .03s;
+}
+
+.b-month.js-isonscreen .b-month__after {
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
 }
 
 @media only screen and (max-width: 991px) {
@@ -1428,8 +1608,6 @@ select::-ms-expand {
     font-size: 42px;
     text-align: center;
     text-shadow: -6px -2px 0 #2f2e2e, -6px -1px 0 #2f2e2e, -6px 0px 0 #2f2e2e, -6px 1px 0 #2f2e2e, -6px 2px 0 #2f2e2e, -5px -4px 0 #2f2e2e, -5px -3px 0 #2f2e2e, -5px -2px 0 #2f2e2e, -5px -1px 0 #2f2e2e, -5px 0px 0 #2f2e2e, -5px 1px 0 #2f2e2e, -5px 2px 0 #2f2e2e, -5px 3px 0 #2f2e2e, -5px 4px 0 #2f2e2e, -4px -5px 0 #2f2e2e, -4px -4px 0 #2f2e2e, -4px -3px 0 #2f2e2e, -4px -2px 0 #2f2e2e, -4px -1px 0 #2f2e2e, -4px 0px 0 #2f2e2e, -4px 1px 0 #2f2e2e, -4px 2px 0 #2f2e2e, -4px 3px 0 #2f2e2e, -4px 4px 0 #2f2e2e, -4px 5px 0 #2f2e2e, -3px -5px 0 #2f2e2e, -3px -4px 0 #2f2e2e, -3px -3px 0 #2f2e2e, -3px -2px 0 #2f2e2e, -3px -1px 0 #2f2e2e, -3px 0px 0 #2f2e2e, -3px 1px 0 #2f2e2e, -3px 2px 0 #2f2e2e, -3px 3px 0 #2f2e2e, -3px 4px 0 #2f2e2e, -3px 5px 0 #2f2e2e, -2px -6px 0 #2f2e2e, -2px -5px 0 #2f2e2e, -2px -4px 0 #2f2e2e, -2px -3px 0 #2f2e2e, -2px -2px 0 #2f2e2e, -2px -1px 0 #2f2e2e, -2px 0px 0 #2f2e2e, -2px 1px 0 #2f2e2e, -2px 2px 0 #2f2e2e, -2px 3px 0 #2f2e2e, -2px 4px 0 #2f2e2e, -2px 5px 0 #2f2e2e, -2px 6px 0 #2f2e2e, -1px -6px 0 #2f2e2e, -1px -5px 0 #2f2e2e, -1px -4px 0 #2f2e2e, -1px -3px 0 #2f2e2e, -1px -2px 0 #2f2e2e, -1px -1px 0 #2f2e2e, -1px 0px 0 #2f2e2e, -1px 1px 0 #2f2e2e, -1px 2px 0 #2f2e2e, -1px 3px 0 #2f2e2e, -1px 4px 0 #2f2e2e, -1px 5px 0 #2f2e2e, -1px 6px 0 #2f2e2e, 0px -6px 0 #2f2e2e, 0px -5px 0 #2f2e2e, 0px -4px 0 #2f2e2e, 0px -3px 0 #2f2e2e, 0px -2px 0 #2f2e2e, 0px -1px 0 #2f2e2e, 0px 0px 0 #2f2e2e, 0px 1px 0 #2f2e2e, 0px 2px 0 #2f2e2e, 0px 3px 0 #2f2e2e, 0px 4px 0 #2f2e2e, 0px 5px 0 #2f2e2e, 0px 6px 0 #2f2e2e, 1px -6px 0 #2f2e2e, 1px -5px 0 #2f2e2e, 1px -4px 0 #2f2e2e, 1px -3px 0 #2f2e2e, 1px -2px 0 #2f2e2e, 1px -1px 0 #2f2e2e, 1px 0px 0 #2f2e2e, 1px 1px 0 #2f2e2e, 1px 2px 0 #2f2e2e, 1px 3px 0 #2f2e2e, 1px 4px 0 #2f2e2e, 1px 5px 0 #2f2e2e, 1px 6px 0 #2f2e2e, 2px -6px 0 #2f2e2e, 2px -5px 0 #2f2e2e, 2px -4px 0 #2f2e2e, 2px -3px 0 #2f2e2e, 2px -2px 0 #2f2e2e, 2px -1px 0 #2f2e2e, 2px 0px 0 #2f2e2e, 2px 1px 0 #2f2e2e, 2px 2px 0 #2f2e2e, 2px 3px 0 #2f2e2e, 2px 4px 0 #2f2e2e, 2px 5px 0 #2f2e2e, 2px 6px 0 #2f2e2e, 3px -5px 0 #2f2e2e, 3px -4px 0 #2f2e2e, 3px -3px 0 #2f2e2e, 3px -2px 0 #2f2e2e, 3px -1px 0 #2f2e2e, 3px 0px 0 #2f2e2e, 3px 1px 0 #2f2e2e, 3px 2px 0 #2f2e2e, 3px 3px 0 #2f2e2e, 3px 4px 0 #2f2e2e, 3px 5px 0 #2f2e2e, 4px -5px 0 #2f2e2e, 4px -4px 0 #2f2e2e, 4px -3px 0 #2f2e2e, 4px -2px 0 #2f2e2e, 4px -1px 0 #2f2e2e, 4px 0px 0 #2f2e2e, 4px 1px 0 #2f2e2e, 4px 2px 0 #2f2e2e, 4px 3px 0 #2f2e2e, 4px 4px 0 #2f2e2e, 4px 5px 0 #2f2e2e, 5px -4px 0 #2f2e2e, 5px -3px 0 #2f2e2e, 5px -2px 0 #2f2e2e, 5px -1px 0 #2f2e2e, 5px 0px 0 #2f2e2e, 5px 1px 0 #2f2e2e, 5px 2px 0 #2f2e2e, 5px 3px 0 #2f2e2e, 5px 4px 0 #2f2e2e, 6px -2px 0 #2f2e2e, 6px -1px 0 #2f2e2e, 6px 0px 0 #2f2e2e, 6px 1px 0 #2f2e2e, 6px 2px 0 #2f2e2e;
-    position: relative;
-    z-index: 1;
     margin: 0;
   }
   .b-composition__slogan {

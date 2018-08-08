@@ -1,0 +1,116 @@
+.b-month
+	padding-top: 270px
+	margin-top: -250px
+	&__inner
+		position: relative
+	&__title
+		font-size: 120px
+		font-family: $font-cursive
+		font-weight: 700
+		color: #eea407
+		+text-stroke(10, #fff)
+		margin: 0
+		position: relative
+		padding-top: 80px
+		&::before
+			content: ''
+			position: absolute
+			left: 170px
+			top: 0
+			background-image: url(../img/month-horn.png)
+			background-repeat: no-repeat
+			background-position: 50% 50%
+			background-size: cover
+			width: 150px
+			height: 130px
+	&__subcap
+		font-size: 30px
+		font-weight: 700
+		line-height: 1.1
+		margin: 10px 0 0
+	&__weeks
+		max-width: 800px
+		padding: 55px 30px 35px 100px
+		margin-left: -100px
+		margin-top: 35px
+		margin-bottom: 20px
+		font-size: 0
+		background-image: url(../img/month-border.png)
+		background-repeat: no-repeat
+		background-size: 100% 100%
+	&__week
+		min-height: 140px
+		display: inline-block
+		vertical-align: top
+		width: 48%
+		&:nth-of-type(even)
+			margin-left: 4%
+	&__count
+		color: $color
+		font-size: 24px
+		line-height: 1
+		font-weight: 700
+		margin: 0 0 8px
+	&__text
+		font-size: 18px
+		line-height: 1.4
+		margin: 0
+	&__slogan
+		max-width: 550px
+		font-size: 70px
+		line-height: .8
+		font-family: $font-cursive
+		font-weight: 700
+		margin: 0 0 25px
+	&__before,
+	&__after
+		position: absolute
+	&__before
+		bottom: 30px
+		right: 135px
+		z-index: 1
+		.b-month
+			&__label
+				margin-left: -35px
+				background-color: #4c5159
+	&__after
+		bottom: 150px
+		right: -40px
+		.b-month
+			&__label
+				margin-left: -27px
+				background-color: #eea407
+	&__label
+		position: absolute
+		width: 70px
+		bottom: 0
+		left: 50%
+		font-size: 33px
+		line-height: 1
+		text-align: center
+		padding-bottom: 6px
+		font-family: $font-cursive
+		color: #fff
+		border-radius: 20px
+	&__girl
+		position: absolute
+		z-index: -1
+		top: -200px
+		right: -225px
+		background-image: url(../img/month-girl.png)
+		background-repeat: no-repeat
+		background-position: 50% 50%
+		background-size: cover
+		width: 874px
+		height: 1069px
+	&__lens
+		position: absolute
+		z-index: -1
+		top: 215px
+		right: -225px
+		background-image: url(../img/month-lens.png)
+		background-repeat: no-repeat
+		background-position: 50% 50%
+		background-size: cover
+		width: 561px
+		height: 543px

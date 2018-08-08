@@ -15,7 +15,7 @@
 		opacity: 1
 		transform: scale(1) translate3d(0,0,0)
 
-@keyframes arrows
+@keyframes fadeIn
 	0%
 		opacity: 0
 	100%
@@ -24,6 +24,12 @@
 %bounceIn
 	animation-name: bounceIn
 	animation-duration: .45s
+	animation-timing-function: linear
+	animation-fill-mode: forwards
+
+%fadeIn
+	animation-name: fadeIn
+	animation-duration: .2s
 	animation-timing-function: linear
 	animation-fill-mode: forwards
 
@@ -43,6 +49,11 @@
 		&__slogan
 			opacity: 0
 
+	.b-month
+		&__after,
+		&__before
+			opacity: 0
+
 .b-header
 	&.js-isonscreen
 		.b-header
@@ -57,7 +68,7 @@
 		.b-causes
 			&__name
 				&::before
-					animation-name: arrows
+					animation-name: fadeIn
 					animation-duration: .7s
 					animation-timing-function: linear
 					animation-fill-mode: forwards
@@ -87,3 +98,12 @@
 		&.js-isonscreen
 			@extend %bounceIn
 			animation-delay: .03s
+
+.b-month
+	&.js-isonscreen
+		.b-month
+			&__before
+				@extend %fadeIn
+			&__after
+				@extend %fadeIn
+				animation-delay: .3s

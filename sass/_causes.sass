@@ -1,0 +1,108 @@
+.b-causes
+  position: relative
+  z-index: 1
+  margin-top: -200px
+
+.b-causes__caption
+  text-align: right
+  font-size: 48px
+  line-height: 1
+  font-weight: 700
+  color: #c96c45
+  padding-left: 35%
+  margin: 0 0 20px
+
+.b-causes__wrap
+  background-color: #eeeff3
+  border: 7px solid #fff
+  overflow: auto
+  padding: 40px
+  -webkit-box-shadow: 0 110px 100px -100px rgba(0, 0, 0, 0.5)
+  box-shadow: 0 110px 100px -100px rgba(0, 0, 0, 0.5)
+
+.b-causes__item
+  float: left
+  position: relative
+
+.b-causes__item--1
+  width: 45%
+  padding-right: 65px
+  text-align: right
+  .b-causes__name::before
+    top: -65px
+    left: 25px
+  .b-causes__text
+    padding-right: 35px
+
+.b-causes__item--2
+  width: 55%
+  padding-top: 40px
+  margin-bottom: 15px
+  .b-causes__img
+    position: absolute
+    bottom: -55px
+    left: -100px
+  .b-causes__name
+    padding-left: 65px
+    &::before
+      top: -7px
+      left: 25px
+      -webkit-transform: scale(1, -1) rotate(-103deg)
+      -ms-transform: scale(1, -1) rotate(-103deg)
+      transform: scale(1, -1) rotate(-103deg)
+  .b-causes__text
+    padding-left: 180px
+    &::before
+      left: 150px
+
+.b-causes__item--3
+  width: 55%
+  .b-causes__img
+    position: relative
+    left: 100px
+  .b-causes__name::before
+    top: -50px
+    left: 45px
+    -webkit-transform: rotate(45deg)
+    -ms-transform: rotate(45deg)
+    transform: rotate(45deg)
+
+.b-causes__img
+  border: 5px solid #fff
+  -webkit-box-shadow: 0 40px 30px -30px rgba(0, 0, 0, 0.5)
+  box-shadow: 0 40px 30px -30px rgba(0, 0, 0, 0.5)
+
+.b-causes__name
+  font-size: 35px
+  font-family: "Caveat", cursive
+  font-weight: 700
+  line-height: 1
+  color: #c96c45
+  margin: 0 0 15px
+  position: relative
+  text-align: left
+  &::before
+    content: ''
+    position: absolute
+    width: 41px
+    height: 57px
+    background-image: url(../img/icon-arrow-curve-2.png)
+    background-repeat: no-repeat
+    background-position: 50% 50%
+    -webkit-background-size: cover
+    background-size: cover
+
+.b-causes__text
+  font-size: 18px
+  margin: 0
+  padding-left: 30px
+  position: relative
+  text-align: left
+  &::before
+    content: ''
+    position: absolute
+    top: 10px
+    left: 0
+    width: 18px
+    height: 4px
+    background-color: #e5d0c9

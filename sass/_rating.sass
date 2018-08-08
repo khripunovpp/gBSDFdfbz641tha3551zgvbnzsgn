@@ -1,0 +1,109 @@
+.b-rating
+	position: relative
+	z-index: 1
+	&__inner
+		position: relative
+	&__title
+		text-align: center
+		font-weight: 700
+		font-size: 48px
+		color: $color
+		line-height: 1
+		margin: 40px 0 20px
+	&__ribbon
+		font-size: 150px
+		font-family: $font-cursive
+		color: #fff
+		display: block
+		font-weight: 400
+		text-transform: uppercase
+		background-image: url(../img/rating-ribbon.png)
+		background-position: 50% 50%
+		background-repeat: no-repeat
+		i
+			font-style: normal
+			font-size: 175px
+	&__magazine
+		background-image: url(../img/rating-magazine.png)
+		background-repeat: no-repeat
+		background-position: 50% 0
+		background-size: 100%
+		min-height: 655px
+		padding: 100px 70px 60px 600px
+	&__text
+		font-size: 18px
+		line-height: 1
+		color: $color
+		margin: 0 0 15px
+	&__countries
+		counter-reset: countries
+	&__country
+		font-size: 25px
+		font-weight: 700
+		line-height: 50px
+		padding-left: 75px
+		position: relative
+		&::before
+			content: counter(countries)
+			counter-increment: countries
+			position: absolute
+			top: 0
+			left: 0
+			width: 50px
+			height: 50px
+			line-height: 50px
+			background-image: url(../img/rating-country-marker.png)
+			background-repeat: no-repeat
+			background-position: 50% 50%
+			background-size: contain
+			padding-left: 14px
+			font-family: $font-cursive
+			font-size: 35px
+		&:last-child
+			color: $color
+			margin-left: -15px
+			margin-top: 25px !important
+			line-height: 80px
+			padding-left: 90px
+			&::after
+				content: ''
+				width: 170px
+				height: 31px
+				position: absolute
+				top: -27px
+				left: -27px
+				background-image: url(../img/rating-country-arrow.png)
+				background-position: 50% 50%
+				background-size: cover
+				background-repeat: no-repeat
+			&::before
+				content: '101'
+				font-size: 35px
+				width: 80px
+				height: 80px
+				line-height: 80px
+				background-image: url(../img/rating-country-marker-accent.png)
+		&+&
+			margin-top: 10px
+	&__bubble
+		position: absolute
+		z-index: 1
+		top: 100%
+		left: -30px
+		max-width: 400px
+		margin-top: -120px
+		padding: 90px 35px 48px 35px
+		font-size: 20px
+		line-height: 1.1
+		text-align: center
+		&::after
+			content: ''
+			position: absolute
+			z-index: -1
+			top: 0
+			left: 0
+			right: 0
+			bottom: 0
+			background-image: url(../img/rating-magazine-bubble.png)
+			background-size: 100% 100%
+			background-repeat: no-repeat

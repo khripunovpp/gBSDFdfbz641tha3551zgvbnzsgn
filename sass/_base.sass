@@ -1,0 +1,94 @@
+.b-logo
+	color: #ff0165
+	font-family: $font-logo
+	+text-stroke(10, #2f2e2e)
+
+.c-btn
+	display: inline-block
+	background-color: #a7ce0b
+	font-family: $font
+	font-size: 30px
+	line-height: 1
+	color: #fff
+	border: 4px solid rgba(#a7c920, .3)
+	background-clip: padding-box
+	border-radius: 40px
+	padding: 10px 20px 7px 30px
+	box-shadow: 0 13px 40px rgba(#005639, .45)
+	margin-bottom: 40px
+	cursor: pointer
+	transition: all .3s
+	&__icon
+		display: inline-block
+		vertical-align: middle
+		width: 45px
+		height: 45px
+		margin-left: 15px
+		background-image: url(../img/icon-button.png)
+		background-repeat: no-repeat
+		background-position: 50% 50%
+	&:hover
+		background-color: darken(#a7ce0b,4%)
+		box-shadow: 0 2px 4px rgba(#005639, .45)
+
+%nuts
+	background-repeat: no-repeat
+	background-position: 50% 50%
+	background-size: cover
+	position: absolute
+
+%nut1
+	background-image: url(../img/nut-1.png)
+	width: 71px
+	height: 75px
+
+%nut1-small
+
+
+%nut2
+	background-image: url(../img/nut-2.png)
+	width: 75px
+	height: 64px
+
+%nut3
+	background-image: url(../img/nut-3.png)
+	width: 71px
+	height: 71px
+
+%nut4
+	background-image: url(../img/nut-4.png)
+	width: 80px
+	height: 89px
+
+%nut5
+	background-image: url(../img/nut-5.png)
+	width: 80px
+	height: 79px
+
+%nut6
+	background-image: url(../img/nut-6.png)
+	width: 70px
+	height: 82px
+
+%nut7
+	background-image: url(../img/nut-7.png)
+	width: 80px
+	height: 89px
+
+.bx
+	&-controls
+		text-align: center
+	&-pager
+		&-item
+			display: inline-block
+			margin: 0 5px
+		&-link
+				display: block
+				width: 20px
+				height: 20px
+				font-size: 0
+				border-radius: 50%
+				background-color: #b3b8c1
+				&:hover,
+				&.active
+						background-color: #ff2c77

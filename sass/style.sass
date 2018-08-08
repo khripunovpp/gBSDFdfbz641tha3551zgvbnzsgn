@@ -1,0 +1,99 @@
+@import "bourbon"
+@import "icon.sass"
+@import "mixins"
+
+$color: #ff0165
+$font: 'Roboto', sans-serif
+$font-logo: 'Knewave', cursive
+$font-cursive: 'Caveat', cursive
+
+html
+	box-sizing: border-box	
+
+*,
+*::after,
+*::before
+	box-sizing: inherit
+	outline: none
+
+::selection
+	background-color: #fff
+
+body
+	margin: 0
+	font-family: $font
+	line-height: 1.4
+	font-size: 14px
+	background-color: #eeeff3
+
+.w-page
+	overflow: hidden
+	position: relative
+	padding-bottom: 500px
+	&::after
+		content: ''
+		position: absolute
+		top: 7360px
+		left: 50%
+		width: 2010px
+		height: 2982px
+		margin-left: -1005px
+		background-image: url(../img/oblique-section.png)
+		background-repeat: no-repeat
+		background-position: 50% 50%
+	&::before
+		content: ''
+		position: absolute
+		top: 385px
+		left: 50%
+		width: 2010px
+		height: 2982px
+		margin-left: -1005px
+		background-image: url(../img/oblique-section.png)
+		background-repeat: no-repeat
+		background-position: 50% 50%
+
+img
+	max-width: 100%	
+	border: none	
+	outline: none	
+
+a
+	border: none	
+	outline: none	
+
+ul
+	list-style-type: none	
+	margin: 0	
+	padding: 0
+
+select::-ms-expand
+	display: none
+
+%container
+	width: 100%
+	max-width: 970px	
+	padding: 0 15px
+	margin: 0 auto
+
+%grid
+	display: table
+	width: 100%
+	table-layout: fixed
+
+%part
+	display: table-cell
+	vertical-align: top
+
+.container
+	@extend %container
+
+@import "base"
+@import "header"
+@import "causes"
+@import "rating"
+@import "promo"
+
+
+@import "animations"
+@import "media"

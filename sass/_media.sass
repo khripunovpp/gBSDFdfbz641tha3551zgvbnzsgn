@@ -1,0 +1,260 @@
+@import "bourbon"
+
+@media only screen and (max-width : 991px)
+	%container-small
+		max-width: 320px
+
+	%stop-animation
+		transform: translate(0,0)
+		transform: translate3d(0,0,0)
+		opacity: 1 !important
+		animation: none !important
+
+	.c-btn
+		max-width: 250px
+		font-size: 25px
+
+	.container
+		@extend %container-small
+
+	.w-page
+		&::before
+			width: 850px
+			height: 1922px
+			top: 675px
+			margin-left: -425px
+			background-image: url(../img/oblique-section-mobile.png)
+
+	.b-header
+		text-align: left
+		background-size: 1340px
+		background-position: 40% 0
+		padding-top: 20px
+		&__inner
+			padding-left: 0
+		&__logo
+			font-size: 42px
+			text-align: center
+			margin-bottom: 10px
+		&__subcap
+			font-size: 30px
+			padding-right: 30%
+			line-height: 1
+			font-weight: 700
+		&__nut
+			&--1,
+			&--2,
+			&--3
+				display: none
+			&--4
+				top: 300px
+				left: 260px
+			&--5
+				top: 270px
+				left: 200px
+			&--6
+				top: 195px
+				left: 250px
+			&--7
+				top: 60px
+				left: 170px
+		&__leaves
+			top: 130px
+			left: 280px
+		&__slogan
+			display: none
+		&__product
+			position: relative
+			left: auto
+			top: -55px
+			right: -95px
+			margin-left: 0
+			width: 280px
+			height: 346px
+			background-size: cover
+			&::after
+				right: 245px
+				bottom: 95px
+				transform: rotate(10deg)
+		&__effects
+			display: block
+			margin: -45px 0 0 
+			padding: 75px 0 45px
+			background-image: url(../img/dotted-line-mobile.png)
+			background-size: 100% 100%
+			position: relative
+			&::after
+				content: ''
+				position: absolute
+				z-index: -1
+				top: 0%
+				left: 50%
+				box-shadow: 0 0 180px 180px rgba(#fff,.7)
+			&-item
+				font-size: 16px
+				padding-left: 45px
+				&::before
+					width: 34px
+					height: 29px
+		&__btn
+			position: absolute
+			top: 390px
+			left: 50%
+			width: 100%
+			margin-bottom: 0
+			margin-right: 0
+			transform: translateX(-50%)
+
+	.b-causes
+		margin-top: -220px
+		&__wrap
+			padding: 10px
+			box-shadow: 0 40px 30px -30px rgba(0, 0, 0, 0.3)
+		&__caption
+			font-size: 35px
+			padding: 0
+			text-align: left
+		&__item
+			width: 100%
+			float: none
+			padding: 0
+			margin: 0
+			&--1
+				.b-causes
+					&__name
+						&::before
+							top: -60px
+							left: auto
+					&__text
+						padding-right: 0
+			&--2
+				text-align: right
+				.b-causes
+					&__img
+						left: auto
+						bottom: auto
+						position: relative
+					&__name
+						padding-left: 0
+						&::before
+							top: -60px
+							left: auto
+							transform: none
+					&__text
+						padding-left: 0
+			&--3
+				text-align: right
+				.b-causes
+					&__img
+						left: auto
+					&__name
+						&::before
+							top: -60px
+							left: auto
+							transform: none
+		&__img
+			max-width: 200px
+		&__name
+			font-size: 30px
+			margin-bottom: 8px
+			&::before
+				@extend %stop-animation
+		&__text
+			font-size: 16px
+			padding-left: 0
+			&::before
+				display: none
+
+	.b-rating
+		&__title
+			font-size: 32px
+		&__ribbon
+			font-size: 60px
+			background-size: contain
+			i
+				font-size: 73px
+		&__magazine
+			padding: 27px 19px 21px 180px
+			min-height: 200px
+		&__text
+			font-size: 9px
+			margin-bottom: 0
+		&__country
+			font-size: 8px
+			line-height: 20px
+			padding-left: 28px
+			&::before
+				width: 18px
+				height: 18px
+				font-size: 12px
+				line-height: 18px
+				padding-left: 5px
+			&:last-child
+				margin-left: -3px
+				margin-top: 0 !important
+				line-height: 25px
+				padding-left: 30px
+				&::after
+					display: none
+				&::before
+					width: 25px
+					height: 25px
+					font-size: 12px
+					line-height: 25px
+					padding-left: 2px
+			&+&
+				margin-top: 0
+		&__bubble
+			position: relative
+			top: auto
+			left: auto
+			margin-top: -35px
+			font-size: 16px
+			&::after
+				content: ''
+				transform: scale(-1,1)
+
+	.b-promo
+		&__inner
+			padding: 20px 0
+			&::after
+				display: none
+		&__subcap
+			font-size: 35px
+			&::after
+				right: auto
+				left: 40px
+				top: auto
+				bottom: -100px
+				transform: rotate(65deg)
+		&__slogan
+			font-size: 40px
+			+text-stroke(6, #fff)
+		&__logo
+			font-size: 35px
+			+text-stroke(6, #2f2e2e)
+			left: -110px
+			span
+				&:nth-child(2)
+					padding-left: 75px
+		&__product
+			position: relative
+			top: auto
+			right: -50px
+			transform: none
+			text-align: center
+			margin-top: -90px
+			margin-bottom: 30px
+			img
+				width: 150px
+			&::after
+				width: 530px
+				height: 524px
+				margin-top: -262px
+				margin-left: -265px
+				background-size: cover
+		&__nut
+			&--2
+				display: none
+		&__leaf
+			display: none

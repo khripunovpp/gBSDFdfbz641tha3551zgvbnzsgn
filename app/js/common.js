@@ -36,7 +36,6 @@ var _bxInnit = function(elem, opt) {
 
     var sliderClone = $(elem).clone();
 
-
     // Объект с параметрами для слайдера
     var options = opt;
 
@@ -50,7 +49,6 @@ var _bxInnit = function(elem, opt) {
         createSlider();
         init.sliderActive = true;
     }
-
 
     function createBreakpoints() {
         switch (currentOpt.view) {
@@ -76,7 +74,6 @@ var _bxInnit = function(elem, opt) {
     }
 
     createBreakpoints();
-
 
     // Загрузка страницы
     if (init.initBreakpoint) {
@@ -135,6 +132,24 @@ var _bxInnit = function(elem, opt) {
     return slider;
 }
 
+var toForm = function() {
+    $('.pre_toform').click(function(e) {
+        e.preventDefault();
+        var a = $('.js_submit');
+        var b = a.closest('form');
+
+        if ($('form#toform').length) {
+            a = $('#toform .js_submit');
+            b = a.closest('form#toform');
+        }
+
+        if (b.length && a.is(':visible')) {
+            $("html,body").animate({ scrollTop: b.last().offset().top }, 1000);
+        }
+        return false;
+    });
+}
+
 var scrollDetection = function() {
 
     $('.js-scroll-detection').each(function() {
@@ -168,9 +183,20 @@ var _videoInit = function() {
     }
 }
 
+var focusible = function(parentClass, focusClass) {
+    $('input[type=text], input[type=tel], select, textarea').on('focus', function() {
+        $(this).closest(parentClass).addClass(focusClass);
+    });
+    $('input[type=text], input[type=tel], select, textarea').on('blur', function() {
+        $(this).closest(parentClass).removeClass(focusClass);
+    });
+}
+
 $(function() {
 
     _videoInit();
+
+    focusible('.b-form__group', 'focus');
 
     scrollDetection();
 
@@ -208,7 +234,7 @@ $(function() {
         slideMargin: 7
     });
 
-     _bxInnit('.b-use__way', {
+    _bxInnit('.b-use__way', {
         view: 'mobile',
         adaptiveHeight: true,
         swipeThreshold: 40,
@@ -220,5 +246,20 @@ $(function() {
         infiniteLoop: true,
         slideMargin: 7
     });
+
+    _bxInnit('.b-feedbacks__list', {
+        view: 'mobile',
+        adaptiveHeight: true,
+        swipeThreshold: 40,
+        controls: false,
+        pager: true,
+        auto: true,
+        pause: 10000,
+        autoHover: true,
+        infiniteLoop: true,
+        slideMargin: 7
+    });
+
+    toForm();
 
 });

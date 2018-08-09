@@ -1,0 +1,83 @@
+.b-feedbacks
+	margin-top: 100px
+	&__title
+		font-size: 48px
+		line-height: 1
+		margin: 0 0 30px
+		color: #eea407
+	&__list
+		text-align: center
+		font-size: 0
+	&__item
+		max-width: 260px
+		display: inline-block
+		vertical-align: top
+		&+&
+			margin-left: 80px
+		&--1
+			.b-feedbacks
+				&__before
+					background-image: url(../img/feedbacks-before-1.jpg)
+				&__after
+					background-image: url(../img/feedbacks-after-1.jpg)
+		&--2
+			.b-feedbacks
+				&__before
+					background-image: url(../img/feedbacks-before-2.jpg)
+				&__after
+					background-image: url(../img/feedbacks-after-2.jpg)
+		&--3
+			.b-feedbacks
+				&__before
+					background-image: url(../img/feedbacks-before-3.jpg)
+				&__after
+					background-image: url(../img/feedbacks-after-3.jpg)
+	&__before,
+	&__after
+		background-repeat: no-repeat
+		background-size: cover
+		background-position: 50% 50%
+		height: 150px
+		position: relative
+		z-index: 1
+	&__after
+		box-shadow: 0 40px 30px -30px rgba(0, 0, 0, 0.5)
+		.b-feedbacks
+			&__label
+				color: #fff
+	&__tail
+		text-align: left
+		position: relative
+		padding: 180px 0 90px
+		min-height: 600px
+		margin-top: -180px
+		&::after
+			content: ''
+			position: absolute
+			top: 0
+			left: -70px
+			right: -70px
+			bottom: 0
+			background-image: url(../img/feedbacks-ring.png)
+			background-size: 100% 100%
+			background-position: 50% 50%
+			background-repeat: no-repeat
+	&__name
+		font-family: $font-cursive
+		font-size: 36px
+		font-weight: 700
+		line-height: 1
+		color: #eea407
+		margin: 20px 0 10px
+	&__text
+		font-size: 18px
+		line-height: 1.3
+		margin: 0
+	&__label
+		position: absolute
+		top: 0
+		right: 10px
+		font-size: 48px
+		line-height: 1
+		font-family: $font-cursive
+		font-weight: 700

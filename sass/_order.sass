@@ -1,0 +1,143 @@
+.b-order
+	margin-top: 50px
+	position: relative
+	z-index: 1
+	margin-bottom: 250px
+	&__inner
+		position: relative
+	&__logo
+		font-size: 135px
+		margin: 0
+		line-height: 1
+		text-align: center
+	&__wrap
+		@extend %grid
+		margin-top: 40px
+	&__left,
+	&__right
+		@extend %part
+		position: relative
+	&__right
+		width: 400px
+	&__slogan
+		width: 600px
+		position: absolute
+		z-index: 1
+		bottom: -155px
+		left: 300px
+		font-size: 48px
+		line-height: 1
+		font-weight: 700
+		color: $color
+		margin: 0
+	&__girl
+		position: absolute
+		z-index: 1
+		top: -20px
+		right: -120px
+		width: 621px
+		height: 600px
+		background-image: url(../img/order-girl.png)
+		background-repeat: no-repeat
+		background-position: 50% 50%
+		background-size: cover
+	&__product
+		position: absolute
+		bottom: -200px
+		left: 0
+		z-index: 1
+	&__nut
+		@extend %nuts
+		&--1
+			@extend %nut3
+			top: 0
+			left: -60px
+		&--2
+			@extend %nut1
+			top: -45px
+			right: -15px
+		&--3
+			@extend %nut2
+			top: 0
+			right: -60px
+		&--4
+			@extend %nut6
+			top: 60px
+			left: 130px
+		&--5
+			@extend %nut5
+			right: 170px
+			bottom: 200px
+		&--6
+			@extend %nut4
+			right: 130px
+			bottom: 110px
+		&--7
+			@extend %nut7
+			right: 230px
+			bottom: 140px
+			width: 50px
+			height: 55px
+			z-index: -1
+		&--8
+			@extend %nut3
+			left: 180px
+			bottom: 0
+	&__leaves
+		position: absolute
+		z-index: -2
+		top: 170px
+		left: 50%
+		width: 146px
+		height: 141px
+		margin-left: -170px
+		background-image: url(../img/header-leaves.png)
+		background-repeat: no-repeat
+		background-position: 50% 50%
+		background-size: cover
+
+
+.b-form
+	background-color: #ffc5ad
+	border: 7px solid #fff
+	padding: 60px 50px 20px
+	&__inner
+		position: relative
+		z-index: 3
+	&__title
+		font-size: 28px
+		margin: 0 0 20px
+		text-align: center
+		color: #fff
+	&__group
+		background-color: rgba(255,255,255,.6)
+		padding: 12px 25px
+		border-radius: 50px
+		border: 1px solid #fff
+		transition: all .4s
+		&+&
+			margin-top: 15px
+		&--select
+			background-image: url(../img/dropdown.png)
+			background-repeat: no-repeat
+			background-position: right 25px center
+		&.focus
+			background-color: #fff
+	&__field
+		width: 100%
+		background-color: transparent
+		border: none
+		appearance: none
+		font-size: 18px
+	&__btn
+		margin-top: 15px
+	.c-btn
+		display: block
+		width: 100%
+		padding: 6px 10px 4px 20px
+		font-size: 20px
+		&__icon
+			background-image: url(../img/form-icon-check.png)
+			width: 49px
+			height: 43px
+

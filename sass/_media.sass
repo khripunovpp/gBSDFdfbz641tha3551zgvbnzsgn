@@ -552,7 +552,7 @@
 			transform: translateX(60px)
 			background-size: 100% 100%
 		&__title
-			font-size: 36px
+			font-size: 35px
 			margin-bottom: 10px
 		&__subtitle
 			font-size: 18px
@@ -574,4 +574,107 @@
 				width: 30px
 				height: 30px
 				left: 0
+
+	.b-video
+		margin-top: 110px
+		&__title
+			font-size: 44px
+			text-align: left
+			line-height: .8
+
+	.b-feedbacks
+		&__title
+			font-size: 35px
+			margin-bottom: 20px
+		&__item
+			max-width: none
+			&+&
+				margin-left: 0
+		&__tail
+			min-height: auto
+			margin-top: -150px
+			padding: 150px 30px 80px 30px
+			&::after
+				left: 0
+				right: 0
+		&__label
+			font-size: 24px
+
+	.b-order
+		margin-bottom: 50px
+		&__wrap,
+		&__left,
+		&__right
+			display: block
+		&__wrap
+			margin-top: -10px
+		&__right
+			width: 100%
+		&__logo
+			font-size: 42px
+			+text-stroke(6, #2f2e2e)
+		&__girl
+			background-image: url(../img/order-girl-mobile.png)
+			width: 369px
+			height: 356px
+			position: relative
+			right: 25px
+			top: auto
+		&__slogan
+			width: auto
+			position: relative
+			left: auto
+			bottom: auto
+			font-size: 29px
+			font-family: $font-cursive
+			font-weight: 700
+			+text-stroke(6, #fff)
+			text-align: right
+			margin-bottom: 15px
+		&__product
+			bottom: 0
+			img
+				max-width: 200px
+		&__nut
+			transform: none !important
+			&--4
+				width: 30px
+				height: 35px
+				top: 20px
+				left: 60px
+			&--5
+				width: 50px
+				height: 49px
+				right: 50px
+				bottom: 70px
+			&--6
+				width: 40px
+				height: 42px
+				right: 70px
+				bottom: 30px
+			&--7
+				width: 30px
+				height: 33px
+				right: 90px
+				bottom: 60px
+			&--8
+				display: none
+		&__leaves
+			width: 70px
+			height: 68px
+			margin-left: 0
+			left: 20px
+			top: 80px
+
+	.b-form
+		padding: 30px 20px 0
+		&__title
+			font-size: 24px
+		&__field
+			font-size: 16px
+		.c-btn
+			font-size: 17px
+			&__icon
+				width: 37px
+				height: 32px
 

@@ -1197,9 +1197,6 @@ select::-ms-expand {
 .b-use__step--2::after {
   top: 95px;
   left: 385px;
-  -webkit-transform: scale(-1, 1) rotate(90deg);
-  -ms-transform: scale(-1, 1) rotate(90deg);
-  transform: scale(-1, 1) rotate(90deg);
 }
 
 .b-use__step--2 .b-use__num {
@@ -2088,7 +2085,7 @@ select::-ms-expand {
   }
 }
 
-.b-header__subcap, .b-header.js-isonscreen .b-header__logo, .b-header.js-isonscreen .b-header__subcap, .b-rating__bubble.js-isonscreen, .b-promo.js-isonscreen .b-promo__logo, .b-promo.js-isonscreen .b-promo__subcap, .b-composition__logo.js-isonscreen, .b-composition__slogan.js-isonscreen, .b-use.js-isonscreen .b-use__wave, .b-statistics.js-isonscreen .b-statistics__logo, .b-order.js-isonscreen .b-order__logo {
+.b-header__subcap, .b-header.js-isonscreen .b-header__logo, .b-header.js-isonscreen .b-header__subcap, .b-rating__bubble.js-isonscreen, .b-promo.js-isonscreen .b-promo__logo, .b-promo.js-isonscreen .b-promo__subcap, .b-composition__logo.js-isonscreen, .b-composition__slogan.js-isonscreen, .b-use.js-isonscreen .b-use__wave, .b-use.js-isonscreen .b-use__step::after, .b-statistics.js-isonscreen .b-statistics__logo, .b-order.js-isonscreen .b-order__logo {
   -webkit-animation-name: bounceIn;
   animation-name: bounceIn;
   -webkit-animation-duration: .45s;
@@ -2131,6 +2128,10 @@ select::-ms-expand {
 }
 
 .js-scroll-detection .b-use__wave {
+  opacity: 0;
+}
+
+.js-scroll-detection .b-use__step::after {
   opacity: 0;
 }
 
@@ -2185,6 +2186,11 @@ select::-ms-expand {
 .b-month.js-isonscreen .b-month__after {
   -webkit-animation-delay: 1.3s;
   animation-delay: 1.3s;
+}
+
+.b-use.js-isonscreen .b-use__step::after {
+  -webkit-animation-delay: .8s;
+  animation-delay: .8s;
 }
 
 @media only screen and (max-width: 991px) {

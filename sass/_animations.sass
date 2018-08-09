@@ -65,6 +65,9 @@
 	.b-use
 		&__wave
 			opacity: 0
+		&__step
+			&::after
+				opacity: 0
 
 	.b-statistics
 		&__logo
@@ -134,6 +137,10 @@
 		.b-use
 			&__wave
 				@extend %bounceIn
+			&__step
+				&::after
+					@extend %bounceIn
+					animation-delay: .8s
 
 .b-statistics
 	&.js-isonscreen

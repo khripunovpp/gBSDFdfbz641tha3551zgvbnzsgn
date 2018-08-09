@@ -1,0 +1,100 @@
+.b-statistics
+	position: relative
+	z-index: 1
+	padding: 170px 0 60px
+	&__inner
+		position: relative
+	&__title
+		font-size: 36px
+		margin: 0
+	&__logo
+		font-size: 109px
+		margin: 0
+	&__item
+		@extend %grid
+		max-width: 500px
+		&--1
+			.b-statistics
+				&__count
+					background-image: url(../img/statistics-ring-1.png)
+				&__text
+					background-image: url(../img/statistics-item-bg-1.png)
+		&--2
+			.b-statistics
+				&__count
+					background-image: url(../img/statistics-ring-2.png)
+				&__text
+					background-image: url(../img/statistics-item-bg-2.png)
+		&--3
+			.b-statistics
+				&__count
+					background-image: url(../img/statistics-ring-3.png)
+				&__text
+					background-image: url(../img/statistics-item-bg-3.png)
+		&--4
+			.b-statistics
+				&__count
+					background-image: url(../img/statistics-ring-4.png)
+				&__text
+					background-image: url(../img/statistics-item-bg-4.png)
+		&--5
+			position: absolute
+			bottom: 0
+			left: 450px
+			.b-statistics
+				&__count
+					background-image: url(../img/statistics-ring-5.png)
+				&__text
+					background-image: url(../img/statistics-item-bg-5.png)
+		&+&
+			margin-top: 10px
+	&__count
+		@extend %part
+		vertical-align: middle
+		font-size: 60px
+		font-family: $font-cursive
+		margin: 0
+		width: 125px
+		height: 125px
+		line-height: 125px
+		padding-left: 10px
+		background-repeat: no-repeat
+		background-size: contain
+		background-position: 50% 50%
+	&__text
+		@extend %part
+		vertical-align: middle
+		font-size: 18px
+		margin: 0
+		padding-left: 50px
+		position: relative
+		left: -20px
+		z-index: -1
+		background-repeat: no-repeat
+		background-position: 0 50%
+	&__girl
+		position: absolute
+		z-index: -1
+		top: -160px
+		right: -200px
+		width: 781px
+		height: 910px
+		background-image: url(../img/statistics-girl.png)
+		background-repeat: no-repeat
+		background-position: 50% 50%
+		background-size: cover
+	&__product
+		position: absolute
+		bottom: 105px
+		left: 0
+	&__nuts
+		position: absolute
+		bottom: 0
+		left: 0
+		z-index: -1
+		width: 165px
+		height: 158px
+		background-image: url(../img/nut-12.png)
+		background-repeat: no-repeat
+		background-position: 50% 50%
+		background-size: cover

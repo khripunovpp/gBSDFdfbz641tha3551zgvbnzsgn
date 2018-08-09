@@ -1,5 +1,7 @@
 .b-use
 	padding-top: 65px
+	position: relative
+	z-index: 1
 	&__inner
 		position: relative
 	&__title
@@ -12,10 +14,8 @@
 	&__wrap
 		background-color: #eeeff3
 		border: 7px solid #fff
-		padding: 50px 20px 50px 200px
+		padding: 70px 20px 90px 200px
 		box-shadow: 0 110px 100px -100px rgba(0, 0, 0, 0.5)
-	&__way
-		counter-reset: usesteps
 	&__step
 		position: relative
 		&--1
@@ -23,7 +23,7 @@
 			&::after
 				top: 95px
 				left: 185px
-			&::before
+			.b-use__num
 				left: 175px
 		&--2
 			padding-left: 200px
@@ -32,7 +32,7 @@
 				top: 95px
 				left: 385px
 				transform: scale(-1,1) rotate(90deg)
-			&::before
+			.b-use__num
 				left: 375px
 		&--3
 			direction: rtl
@@ -46,24 +46,6 @@
 					padding-right: 10px
 			&::after
 				display: none
-			&::before
-				left: 575px
-		&::before
-			counter-increment: usesteps
-			content: '0' counter(usesteps)
-			position: absolute
-			top: -25px
-			z-index: 3
-			width: 70px
-			height: 65px
-			font-family: $font-cursive
-			font-size: 42px
-			font-weight: 700
-			line-height: 62px
-			padding-left: 11px
-			background-image: url(../img/use-numberring.png)
-			background-repeat: no-repeat
-			background-position: 50% 50%
 		&::after
 			content: ''
 			position: absolute
@@ -73,6 +55,20 @@
 			background-image: url(../img/use-arrow.png)
 			background-repeat: no-repeat
 			background-position: 50% 50%
+	&__num
+		position: absolute
+		top: -25px
+		z-index: 3
+		width: 70px
+		height: 65px
+		font-family: $font-cursive
+		font-size: 42px
+		font-weight: 700
+		line-height: 62px
+		padding-left: 21px
+		background-image: url(../img/use-numberring.png)
+		background-repeat: no-repeat
+		background-position: 50% 50%
 	&__img
 		border: 5px solid #fff
 		box-shadow: 0 40px 30px -30px rgba(0, 0, 0, 0.5)
@@ -98,6 +94,7 @@
 			z-index: 1
 	&__nut
 		position: absolute
+		@extend %nuts
 		&--1
 			@extend %nut3
 			top: -115px
@@ -135,22 +132,30 @@
 		left: 150px
 	&__wave
 		position: absolute
-		display: none
 		background-repeat: no-repeat
 		background-position: 50% 50%
+		background-size: cover
 		&--1
 			background-image: url(../img/use-wave-1.png)
 			width: 115px
 			height: 83px
+			top: -15px
+			left: -130px
 		&--2
 			background-image: url(../img/use-wave-2.png)
 			width: 96px
-			height: 97px
+			height: 67px
+			bottom: 25px
+			right: -100px
 		&--3
 			background-image: url(../img/use-wave-3.png)
 			width: 96px
-			height: 94px
+			height: 64px
+			bottom: -125px
+			left: 175px
 		&--4
 			background-image: url(../img/use-wave-4.png)
 			width: 86px
 			height: 84px
+			left: -80px
+			bottom: 25px

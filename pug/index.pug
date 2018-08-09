@@ -139,7 +139,7 @@ html
 							span.b-month__label после
 						p.b-month__slogan Верните красоту и молодость своей груди
 						button.b-month__btn.c-btn Хочу красивую грудь #[.c-btn__icon]
-			.b-use
+			.b-use.js-scroll-detection(data-scroll-shift="600")
 				.container
 					.b-use__inner
 						.b-use__nut.b-use__nut--1.js-parralax(data-rellax-speed="3")
@@ -159,14 +159,67 @@ html
 								.b-use__flowers
 							ul.b-use__way
 								li.b-use__step.b-use__step--1
+									span.b-use__num 1
 									img.b-use__img(src="img/use-img-1.jpg", alt="")
 									p.b-use__text Нанесите крем #[b на чистую кожу], желательно после душа
 								li.b-use__step.b-use__step--2
+									span.b-use__num 2
 									img.b-use__img(src="img/use-img-2.jpg", alt="")
 									p.b-use__text Втирайте крем массажными движениями #[b по часовой стрелке]
 								li.b-use__step.b-use__step--3
+									span.b-use__num 3
 									img.b-use__img(src="img/use-img-3.jpg", alt="")
 									p.b-use__text Дождитесь впитывания. Используйте #[b один-два раза в день]
+			.b-statistics.js-scroll-detection(data-scroll-shift="400")
+				.container
+					.b-statistics__inner
+						h2.b-statistics__title Более 1 000 000 женщин по всему миру #[br] испытали на себе действие 
+						p.b-statistics__logo.b-logo PushUP Cream
+						.b-statistics__girl
+							.b-statistics__product
+								img(src="img/statistics-product.png", alt="")
+								.b-statistics__nuts
+						ul.b-statistics__list
+							li.b-statistics__item.b-statistics__item--1
+								p.b-statistics__count 91%
+								p.b-statistics__text увеличили грудь #[br] на 1 размер
+							li.b-statistics__item.b-statistics__item--2
+								p.b-statistics__count 75%
+								p.b-statistics__text увеличили грудь на #[br] 2 размера
+							li.b-statistics__item.b-statistics__item--3
+								p.b-statistics__count 37%
+								p.b-statistics__text увеличили грудь #[br] на 3 размера
+							li.b-statistics__item.b-statistics__item--4
+								p.b-statistics__count 79%
+								p.b-statistics__text полностью восстановили #[br] грудь после родов
+							li.b-statistics__item.b-statistics__item--5
+								p.b-statistics__count 98%
+								p.b-statistics__text заметили улучшение состояния кожи #[br] и отличный лифтинг-эффект
+			.b-quality
+				p.b-quality__ghost PushUpCream
+				.container
+					.b-quality__inner
+						.b-quality__lead
+							h2.b-quality__title 100% качество - наш приоритет
+							p.b-quality__subtitle Мы заботимся о своих клиентах и создаем PushUp Cream по всем мировым стандартам качества.
+						img.b-quality__img(src="img/quality-img.jpg", alt="")
+						.b-quality__product
+							img(src="img/quality-product.png", alt="")
+							.b-quality__nut.b-quality__nut--1.js-parralax(data-rellax-speed="1")
+							.b-quality__nut.b-quality__nut--2.js-parralax(data-rellax-speed="3")
+						.b-quality__nut.b-quality__nut--3.js-parralax(data-rellax-speed="4")
+			.b-video
+				.container
+					.b-video__inner
+						h2.b-video__title Крем, в котором нет ничего лишнего
+						.b-video__video.c-video
+							video.c-video__video(data-url="/adcombocdn/upload/152/videos/1529877600/diet-duet", controls, data-sub="DietDuet", controlsList="nodownload")#video.avid
+							.c-video__poster
+								button.c-video__play
+									span.c-video__play-icon
+						.b-video__nut.js-parralax(data-rellax-speed="1")
+			.b-feedbacks
+			
 
 		script(src="js/common.js")
 		script(src="js/bxslider.min.js")

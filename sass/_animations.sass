@@ -21,6 +21,14 @@
 	100%
 		opacity: 1
 
+@keyframes pulse
+	from
+		transform: scale(1)
+		opacity: .6
+	to
+		transform: scale(1.5)
+		opacity: 0
+
 %bounceIn
 	animation-name: bounceIn
 	animation-duration: .45s
@@ -52,6 +60,14 @@
 	.b-month
 		&__after,
 		&__before
+			opacity: 0
+
+	.b-use
+		&__wave
+			opacity: 0
+
+	.b-statistics
+		&__logo
 			opacity: 0
 
 .b-header
@@ -108,3 +124,15 @@
 			&__after
 				@extend %fadeIn
 				animation-delay: 1.3s
+
+.b-use
+	&.js-isonscreen
+		.b-use
+			&__wave
+				@extend %bounceIn
+
+.b-statistics
+	&.js-isonscreen
+		.b-statistics
+			&__logo
+				@extend %bounceIn

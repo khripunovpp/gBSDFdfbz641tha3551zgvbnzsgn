@@ -22,12 +22,16 @@
 		@extend %container-small
 
 	.w-page
+		&::after,
 		&::before
+			background-image: url(../img/oblique-section-mobile.png)
 			width: 850px
 			height: 1922px
-			top: 675px
 			margin-left: -425px
-			background-image: url(../img/oblique-section-mobile.png)
+		&::before
+			top: 675px
+		&::after
+			top: 5160px
 
 	.b-header
 		text-align: left
@@ -172,7 +176,7 @@
 
 	.b-rating
 		&__title
-			font-size: 32px
+			font-size: 35px
 		&__ribbon
 			font-size: 60px
 			background-size: contain
@@ -233,7 +237,7 @@
 				bottom: -100px
 				transform: rotate(65deg)
 		&__slogan
-			font-size: 40px
+			font-size: 35px
 			+text-stroke(6, #fff)
 		&__logo
 			font-size: 35px
@@ -400,3 +404,174 @@
 			top: -30px
 		&__label
 			font-size: 23px
+
+	.b-use
+		&__title
+			font-size: 35px
+			padding-left: 0	
+		&__product
+			position: relative
+			bottom: auto
+			top: -50px
+			left: -15px
+		&__wrap
+			padding: 20px
+			box-shadow: 0 40px 30px -30px rgba(0, 0, 0, 0.3)
+		&__img
+			max-width: 165px
+		&__text
+			padding-left: 0
+		&__step
+			&--1
+				margin-bottom: 0
+				.b-use__num
+					left: 150px
+				&::after
+					top: 70px
+					left: 135px
+			&--2
+				padding-left: 0
+				margin-bottom: 0
+				.b-use__num
+					left: 150px
+				&::after
+					top: 70px
+					left: 135px
+					transform: none
+			&--3
+				padding-left: 0	
+				direction: unset
+				.b-use__num
+					left: 150px
+				&::after
+					display: block
+					top: 70px
+					left: 135px
+		&__num
+			top: 20px
+		&__img
+			margin-bottom: 15px
+		&__nut
+			&--1
+				right: 50px
+			&--2
+				left: 215px
+			&--3
+				display: none
+			&--4
+				width: 64px
+				height: 74px
+				top: 50px
+				left: -30px
+			&--5
+				left: -40px
+			&--6
+				display: none
+		&__flowers
+			width: 100px
+			height: 112px
+			bottom: -20px
+			left: 70px
+		&__wave
+			@extend %stop-animation
+			&--1
+				width: 57px
+				height: 41px
+				top: -5px
+				left: -30px
+			&--2
+				width: 49px
+				height: 33px
+				right: -50px
+				bottom: auto
+				top: 110px
+			&--3
+				width: 49px
+				height: 32px
+				bottom: -30px
+			&--4
+				width: 43px
+				height: 42px
+				left: -35px
+				bottom: 100px
+	
+	.b-statistics
+		padding: 50px 0 20px
+		&__title
+			font-size: 26px
+			line-height: 1.2
+			margin-bottom: 15px
+		&__logo
+			font-size: 46px
+			+text-stroke(6, #2f2e2e)
+			line-height: 1
+		&__count
+			width: 100px
+			height: 80px
+			line-height: 80px
+			font-size: 45px
+		&__item
+			&--5
+				position: relative
+				left: auto
+				bottom: auto
+			&+&
+				margin-top: 5px
+		&__text
+			font-size: 16px
+			padding-left: 25px
+			line-height: 1.1
+			background-size: 100% 100%
+		&__girl
+			position: relative
+			top: auto
+			right: 45px
+			background-image: url(../img/statistics-girl-mobile.png)
+			width: 462px
+			height: 548px
+			margin-bottom: -15px
+			margin-top: -150px
+		&__product
+			bottom: 25px
+			left: 25px
+			img
+				max-width: 145px
+		&__nuts
+			width: 75px
+			height: 76px
+			left: 15px
+			bottom: 15px
+
+	.b-quality
+		padding: 0
+		&__ghost
+			display: none
+		&__lead
+			padding: 30px 60px 20px 40px
+			margin-left: -100px
+			transform: translateX(60px)
+			background-size: 100% 100%
+		&__title
+			font-size: 36px
+			margin-bottom: 10px
+		&__subtitle
+			font-size: 18px
+		&__product
+			width: 150px
+			bottom: -80px
+			left: -30px
+			z-index: 1
+		&__img
+			box-shadow: 0 40px 30px -30px rgba(0, 0, 0, 0.3)
+		&__nut
+			&--1
+				width: 27px
+				height: 32px
+				top: auto
+				bottom: 0
+				left: 250px
+			&--2
+				width: 30px
+				height: 30px
+				left: 0
+

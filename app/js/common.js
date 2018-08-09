@@ -149,7 +149,28 @@ var scrollDetection = function() {
 
 }
 
+var _videoInit = function() {
+    var videoWrap = $('.c-video');
+    var play = videoWrap.find('.c-video__play');
+    var video = document.getElementById('video');
+    var poster = videoWrap.find('.c-video__poster');
+
+
+    play.on('click', function() {
+        video.play();
+        videoWrap.addClass('c-video--played')
+    })
+
+    if (video) {
+        video.addEventListener('ended', function() {
+            videoWrap.removeClass('c-video--played')
+        }, false);
+    }
+}
+
 $(function() {
+
+    _videoInit();
 
     scrollDetection();
 
@@ -176,7 +197,19 @@ $(function() {
 
     _bxInnit('.b-month__weeks', {
         view: 'mobile',
-        slideSelector: '.b-month__week',
+        adaptiveHeight: true,
+        swipeThreshold: 40,
+        controls: false,
+        pager: true,
+        auto: true,
+        pause: 10000,
+        autoHover: true,
+        infiniteLoop: true,
+        slideMargin: 7
+    });
+
+     _bxInnit('.b-use__way', {
+        view: 'mobile',
         adaptiveHeight: true,
         swipeThreshold: 40,
         controls: false,

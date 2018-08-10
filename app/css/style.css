@@ -2108,14 +2108,6 @@ select::-ms-expand {
   animation-fill-mode: forwards;
 }
 
-.js-parralax {
-  -webkit-transition: -webkit-transform 10ms linear;
-  transition: -webkit-transform 10ms linear;
-  -o-transition: transform 10ms linear;
-  transition: transform 10ms linear;
-  transition: transform 10ms linear, -webkit-transform 10ms linear;
-}
-
 .js-scroll-detection .b-causes__name::before {
   opacity: 0;
 }
@@ -2205,6 +2197,22 @@ select::-ms-expand {
 .b-use.js-isonscreen .b-use__step::after {
   -webkit-animation-delay: .8s;
   animation-delay: .8s;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .js-parralax {
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  .js-parralax {
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+  }
 }
 
 @media only screen and (max-width: 991px) {

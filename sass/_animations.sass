@@ -41,9 +41,6 @@
 	animation-timing-function: linear
 	animation-fill-mode: forwards
 
-.js-parralax
-	transition: transform 10ms linear
-
 .js-scroll-detection
 	.b-causes
 		&__name
@@ -157,3 +154,11 @@
 		.b-order
 			&__logo
 				@extend %bounceIn
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active)
+	.js-parralax
+		transform: none !important
+@supports (-ms-ime-align: auto)
+	.js-parralax
+		transform: none !important

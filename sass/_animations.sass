@@ -31,7 +31,7 @@
 
 %bounceIn
 	animation-name: bounceIn
-	animation-duration: .45s
+	animation-duration: .57s
 	animation-timing-function: linear
 	animation-fill-mode: forwards
 
@@ -40,6 +40,9 @@
 	animation-duration: .2s
 	animation-timing-function: linear
 	animation-fill-mode: forwards
+
+.js-parralax
+	transition: transform 10ms linear
 
 .js-scroll-detection
 	.b-causes
@@ -82,9 +85,10 @@
 		.b-header
 			&__logo
 				@extend %bounceIn
+				animation-delay: .2s
 			&__subcap
 				@extend %bounceIn
-				animation-delay: .03s
+				animation-delay: .23s
 
 .b-causes
 	&.js-isonscreen

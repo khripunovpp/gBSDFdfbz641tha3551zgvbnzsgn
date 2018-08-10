@@ -2771,7 +2771,7 @@ select::-ms-expand {
     margin-bottom: 15px;
   }
   .b-use__nut--1 {
-    right: 50px;
+    right: -65px;
   }
   .b-use__nut--2 {
     left: 215px;
@@ -2921,6 +2921,9 @@ select::-ms-expand {
     width: 30px;
     height: 30px;
     left: 0;
+  }
+  .b-quality__nut--3 {
+    right: -45px;
   }
   .b-video {
     margin-top: 110px;

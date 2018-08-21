@@ -1265,6 +1265,7 @@ select::-ms-expand {
   margin: 0;
   font-size: 18px;
   padding-left: 10px;
+  direction: ltr;
 }
 
 .b-use__text b {
@@ -2727,6 +2728,7 @@ select::-ms-expand {
   }
   .b-use__text {
     padding-left: 0;
+    width: auto;
   }
   .b-use__step--1 {
     margin-bottom: 0;
@@ -2828,6 +2830,7 @@ select::-ms-expand {
     font-size: 26px;
     line-height: 1.2;
     margin-bottom: 15px;
+    padding-right: 50px;
   }
   .b-statistics__logo {
     font-size: 35px;

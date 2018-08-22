@@ -3032,6 +3032,9 @@ select::-ms-expand {
     .b-feedbacks__label {
         font-size: 24px;
     }
+    .b-feedbacks__name {
+        font-size: 30px;
+    }
     .b-order {
         margin-bottom: 50px;
     }

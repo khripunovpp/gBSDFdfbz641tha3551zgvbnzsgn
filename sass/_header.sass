@@ -135,3 +135,25 @@
 			top: 105px
 			left: 355px
 			z-index: 1
+	&__cost
+		position: absolute
+		bottom: 40px
+		left: 50%
+		text-align: left
+		margin-left: -90px
+	&__oldprice,
+	&__newprice
+		display: block
+		line-height: 1
+	&__oldprice
+		font-size: 30px
+		font-style: italic
+		color: #555
+		+text-stroke(1, #fff)
+		margin-bottom: 10px
+		text-decoration: line-through
+	&__newprice
+		font-size: 40px
+		font-weight: 800
+		color: $color
+		+text-stroke(3, #fff)

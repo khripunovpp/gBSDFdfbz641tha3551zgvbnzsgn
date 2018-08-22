@@ -23,7 +23,7 @@
 		width: 600px
 		position: absolute
 		z-index: 1
-		bottom: -155px
+		bottom: -105px
 		left: 300px
 		font-size: 48px
 		line-height: 1
@@ -43,7 +43,7 @@
 		background-size: cover
 	&__product
 		position: absolute
-		bottom: -200px
+		bottom: -100px
 		left: 0
 		z-index: 1
 	&__nut
@@ -129,6 +129,22 @@
 		border: none
 		appearance: none
 		font-size: 18px
+	&__cost
+		text-align: center
+		margin: 20px 0
+	&__oldprice,
+	&__newprice
+		display: block
+	&__oldprice
+		font-size: 30px
+		color: #555
+		text-decoration: line-through
+		+text-stroke(2, #fff)
+	&__newprice
+		font-size: 40px
+		font-weight: 700
+		color: $color
+		+text-stroke(3, #fff)
 	&__btn
 		margin-top: 15px
 	.c-btn

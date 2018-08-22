@@ -41,6 +41,9 @@ html
 								li.b-header__effects-item #[b Подтягивает] и избавляет от растяжек
 								li.b-header__effects-item #[b Улучшает] форму и внешний вид
 								li.b-header__effects-item #[b Увлажняет] и ухаживает за кожей
+							.b-header__cost
+								span.b-header__oldprice {{ old_price }} {{ currency }}
+								span.b-header__newprice {{ price }} {{ currency }}
 							button.b-header__btn.c-btn.pre_toform Заказать #[.c-btn__icon]
 				.b-causes.js-scroll-detection(data-scroll-shift="300")
 					.container
@@ -282,6 +285,9 @@ html
 												input(type="text", name="name", placeholder="Ваше имя").b-form__field
 											.b-form__group
 												input(type="tel", name="phone", placeholder="Номер телефона").only_number.b-form__field
+											.b-form__cost
+												span.b-form__oldprice {{ old_price }} {{ currency }}
+												span.b-form__newprice {{ price }} {{ currency }}
 											button.b-form__btn.c-btn.button__text.js_submit Заказать сейчас #[.c-btn__icon]
 		script(src="js/common.js")
 		script(src="js/bxslider.min.js")
